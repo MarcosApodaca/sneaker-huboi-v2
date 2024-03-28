@@ -1,0 +1,136 @@
+---
+
+---
+
+<header class="max-w-[80rem]  mx-auto fixed top-0 z-10">
+    <nav id="nav" class="flex p-5 text-[#faf8f5]">
+        <a class=" text-black text-center" href="/">
+        SNEAKERS <br>
+        <span class=" font-bold">HUBOI</span>
+        </a>
+        <div id="divNav"  class="flex flex-col ml-24">
+            <ul   class=" p-4 flex text-black mb-10">
+                <li  ><a  id="zapatilla" class="m-4 inline" href="/zapatilla">ZAPATILLAS</a></li>
+                <li><a class="m-4" href="/ropa">ROPAS</a></li>
+                <li><a href="">WHATSAPP</a></li>
+            </ul>
+            <div id="marcaZapatilla" class=" flex gap-28 ml-10 ">
+                <ul class="marcas text-black">
+                    <li><a class="icon1" href="/"></a>Nike</li>
+                    <li><a class="icon2" href="/"></a>New Balance</li>
+                    <li><a class="icon3" href="/"></a>Adidas</li>
+                    <li><a  href="/"></a>Converse</li>
+                    <li><a  href="/"></a>Trapstar</li>
+                    <li><a  href="/"></a>Dolce and Gabbana</li>
+                    <li><a  href="/"></a>Balenciaga</li>
+                </ul>
+                <ul class="text-black ">
+                    <li><a class="icon8" href="/"></a>Louis Vuiiton</li>
+                    <li><a class="icon" href="//"></a>Golden Goose Stardan</li>
+                    <li><a class="icon" href="/"></a>Versace</li>
+                    <li><a class="icon" href="/"></a>Louboutin</li>
+                    <li><a class="icon" href="/"></a>Alexander McQueen</li>
+                    <li><a class="icon" href="/"></a>Ugg Tasman</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+</header>
+
+<style>
+
+.desplegado{
+    display: none;
+}
+
+.nav-abierto{
+    display: block;
+}
+
+nav{
+    animation: despliegue 0.5s ease both;
+}
+
+.nav-desplegado{
+    margin: 0 auto;
+    height:24rem;
+    width:100vw;
+    background-color: #faf8f5;   
+    animation: despliegue 0.5s ease-in-out;
+}
+
+@keyframes despliegue {
+    0% {
+        height: 0;
+        opacity: 0;
+    }
+    100% {
+        height: 24rem;
+        opacity: 1;
+    }
+}
+
+    a{
+        letter-spacing: 3px;
+        padding: 7px;
+        transition: .15s ease-in-out;
+    }
+    a:hover{
+        color: #fff;
+        text-shadow: 7px 7px 15px rgba(255, 2, 141, 25);
+        
+       
+    }
+
+  
+    ul{
+        text-decoration: none;
+    }
+
+    ul li:hover{
+        cursor: pointer;
+        background-color: #C92CB9;
+        color: #faf8f5;
+        transition: .1s ease-in;
+        border-radius: 5px;
+    }
+
+
+.marcas .icon1::before {
+    display: inline;
+    content: url(/NK.png);
+    width: 5px;
+    height: 5px;
+    position: relative;
+    top:5px
+}
+
+.marcas .icon2::before {
+    content: url(/adidas.png); /* Ruta al segundo tipo de icono */
+    position: relative;
+    top:5px
+}
+
+.marcas .icon3::before {
+    content: url(/adidas.png);  /* Ruta al tercer tipo de icono */
+    position: relative;
+    top:5px
+}
+
+/* 
+    .icon::after {
+      content: url(/adidas.png); 
+      display: inline;
+      position: relative;
+      top:5px;
+    } */
+    .icon::after:nth-child(2){
+        content: url(/adidas.png);
+    }
+.icon8::before{
+    content: url(/LV.png);  /* Ruta al tercer tipo de icono */
+    position: relative;
+    top:5px
+}    
+</style>
