@@ -1,0 +1,49 @@
+---
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import Noise from '../components/Noise.astro';
+
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<script src="../components/script.ts"></script>
+	</head>
+	<body>
+		<Noise/>
+		<Header/>
+		<slot/>
+		<Footer/>
+	</body>
+</html>
+<style is:global>
+
+	@font-face {
+	font-family: 'MiFuentePersonalizada';
+	src: url('/public/Phonk-RegularDEMO.otf') format('truetype');
+	
+	}
+
+	html {
+		font-family: system-ui, sans-serif;
+		background: #161616;
+		background-size: 224px;
+	}
+	body{
+		font-family: MiFuentePersonalizada, sans-serif;
+		
+	}
+</style>
