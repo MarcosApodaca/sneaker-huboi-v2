@@ -4,33 +4,32 @@
 
 <header class="max-w-[80rem]  mx-auto fixed top-0 z-10">
     <nav id="nav" class="flex p-5 text-[#faf8f5]">
-        <a class=" text-black text-center" href="/">
+        <a class="  text-center" href="/">
         SNEAKERS <br>
         <span class=" font-bold">HUBOI</span>
         </a>
         <div id="divNav"  class="flex flex-col ml-24">
-            <ul   class=" p-4 flex text-black mb-10">
-                <li  ><a  id="zapatilla" class="m-4 inline" href="/zapatilla">ZAPATILLAS</a></li>
-                <li><a class="m-4" href="/ropa">ROPAS</a></li>
+            <ul   class=" p-4 flex mb-2">
+                <li  ><a  id="zapatilla" class="m-4 inline" href="/zapatilla">MARCAS</a></li>
                 <li><a href="">WHATSAPP</a></li>
             </ul>
-            <div id="marcaZapatilla" class=" flex gap-28 ml-10 ">
-                <ul class="marcas text-black">
-                    <li><a class="icon1" href="/"></a>Nike</li>
+            <div id="marcaZapatilla" class="lista  flex flex-wrap gap-20 ml-10 ">
+                <ul class="marcas  text-black">
+                    <li><a class="icon1" href="/nike">Nike</a></li>
                     <li><a class="icon2" href="/"></a>New Balance</li>
                     <li><a class="icon3" href="/"></a>Adidas</li>
-                    <li><a  href="/"></a>Converse</li>
-                    <li><a  href="/"></a>Trapstar</li>
-                    <li><a  href="/"></a>Dolce and Gabbana</li>
-                    <li><a  href="/"></a>Balenciaga</li>
+                    <li><a class="icon4" href="/"></a>Converse</li>
+                    <li><a class="icon5" href="/"></a>Trapstar</li>
+                    <li><a class="icon6" href="/"></a>Dolce and Gabbana</li>
+                    <li><a class="icon7" href="/"></a>Balenciaga</li>
                 </ul>
-                <ul class="text-black ">
-                    <li><a class="icon8" href="/"></a>Louis Vuiiton</li>
-                    <li><a class="icon" href="//"></a>Golden Goose Stardan</li>
-                    <li><a class="icon" href="/"></a>Versace</li>
-                    <li><a class="icon" href="/"></a>Louboutin</li>
-                    <li><a class="icon" href="/"></a>Alexander McQueen</li>
-                    <li><a class="icon" href="/"></a>Ugg Tasman</li>
+                <ul class=" text-black ">
+                    <li><a class="icon8" href="/LouisVuitton">Louis Vuiiton</a></li>
+                    <li><a class="icon9" href="//"></a>Golden Goose Stardan</li>
+                    <li><a class="icon10" href="/"></a>Versace</li>
+                    <li><a class="icon11" href="/"></a>Louboutin</li>
+                    <li><a class="icon12" href="/"></a>Alexander McQueen</li>
+                    <li><a class="icon13" href="/"></a>Ugg Tasman</li>
                 </ul>
             </div>
         </div>
@@ -40,24 +39,29 @@
 
 <style>
 
-.desplegado{
+.lista{
     display: none;
+    /* transform: translateY(-10px);
+    transition: transform .1s, opacity .1s; */
+
+}
+
+.lista-marcas{
+    display: flex;
 }
 
 .nav-abierto{
     display: block;
 }
 
-nav{
-    animation: despliegue 0.5s ease both;
-}
-
 .nav-desplegado{
+    color: #000;
     margin: 0 auto;
-    height:24rem;
+    height:20rem;
     width:100vw;
     background-color: #faf8f5;   
-    animation: despliegue 0.5s ease-in-out;
+    animation: despliegue 0.5s ease-in-out forwards;
+    
 }
 
 @keyframes despliegue {
@@ -66,10 +70,11 @@ nav{
         opacity: 0;
     }
     100% {
-        height: 24rem;
+        height: 20rem;
         opacity: 1;
     }
 }
+
 
     a{
         letter-spacing: 3px;
@@ -77,10 +82,7 @@ nav{
         transition: .15s ease-in-out;
     }
     a:hover{
-        color: #fff;
-        text-shadow: 7px 7px 15px rgba(255, 2, 141, 25);
-        
-       
+        color: #fff;    
     }
 
   
@@ -97,17 +99,15 @@ nav{
     }
 
 
+
 .marcas .icon1::before {
-    display: inline;
     content: url(/NK.png);
-    width: 5px;
-    height: 5px;
     position: relative;
     top:5px
 }
 
 .marcas .icon2::before {
-    content: url(/adidas.png); /* Ruta al segundo tipo de icono */
+    content: url(/new.png); /* Ruta al segundo tipo de icono */
     position: relative;
     top:5px
 }
@@ -118,18 +118,55 @@ nav{
     top:5px
 }
 
-/* 
-    .icon::after {
-      content: url(/adidas.png); 
-      display: inline;
-      position: relative;
-      top:5px;
-    } */
-    .icon::after:nth-child(2){
-        content: url(/adidas.png);
-    }
+.marcas .icon4::before {
+    content: url(/logo-converse.png);  /* Ruta al tercer tipo de icono */
+    position: relative;
+    top:5px
+}
+.marcas .icon5::before {
+    content: url(/logo-trapstar.png);  /* Ruta al tercer tipo de icono */
+    position: relative;
+    top:5px
+}
+.marcas .icon6::before {
+    content: url(/D&G-logo.png);  /* Ruta al tercer tipo de icono */
+    position: relative;
+    top:5px
+}
+.marcas .icon7::before {
+    content: url(/balenciaga-logo.png);  /* Ruta al tercer tipo de icono */
+    position: relative;
+    top:5px
+}
+
+
 .icon8::before{
     content: url(/LV.png);  /* Ruta al tercer tipo de icono */
+    position: relative;
+    top:5px
+}    
+.icon9::before{
+    content: url(/bape-logo.png);  /* Ruta al tercer tipo de icono */
+    position: relative;
+    top:5px
+}    
+.icon10::before{
+    content: url(/versace-logo.png);  /* Ruta al tercer tipo de icono */
+    position: relative;
+    top:5px
+}    
+.icon11::before{
+    content: url(/lougoutin-logo.png);  /* Ruta al tercer tipo de icono */
+    position: relative;
+    top:5px
+}    
+.icon12::before{
+    content: url(/alexander-logo.png);  /* Ruta al tercer tipo de icono */
+    position: relative;
+    top:5px
+}    
+.icon13::before{
+    content: url(/UGG_logo.png);  /* Ruta al tercer tipo de icono */
     position: relative;
     top:5px
 }    
