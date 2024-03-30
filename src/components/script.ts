@@ -9,17 +9,19 @@
 
 
 
-  zapatilla.addEventListener('mouseenter', () => {
+zapatilla.addEventListener('mouseenter', () => {
     // marcaZapatilla.classList.add('nav-abierto')
     // zapatilla.classList.add('abrir-nav');
-    nav.classList.add('nav-desplegado')
-  });
+  nav.classList.add('nav-desplegado')
+  marcaZapatilla.classList.add('lista-marcas')
+
+});
 
  
-
-// Cerrar nav cuando el cursor sale del header
 divNav.addEventListener('mouseleave', () => {
-    nav.classList.remove('nav-desplegado');
+  nav.classList.remove('nav-desplegado')
+  marcaZapatilla.classList.remove('lista-marcas')
+  
 });
 
 
