@@ -18,7 +18,7 @@ zapatilla.addEventListener('mouseenter', () => {
 });
 
  
-divNav.addEventListener('mouseleave', () => {
+nav.addEventListener('mouseleave', () => {
   nav.classList.remove('nav-desplegado')
   marcaZapatilla.classList.remove('lista-marcas')
   
