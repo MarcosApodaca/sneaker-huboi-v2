@@ -5,17 +5,17 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="Sneakers Huboi zapatillas de calidad">
 	
-	<hero class=" grid grid-cols-4 max-h-screen my-auto">
-		<h1 class="font-extrabold text-[9rem] text-[#faf8f5] ml-28 self-end ">SNEA <br/>
+	<hero class=" flex-col sm:grid sm:grid-cols-4 max-h-screen my-auto">
+		<h1 class=" row-start-1 font-extrabold text-[4rem] leading-none lg:text-[9rem] text-[#faf8f5] lg:ml-28 self-end mt-[8rem] ">SNEA <br/>
 			KER
 		</h1>
-		<img class="hero-zapatilla bg-[url(/bg-1.png)] bg-no-repeat bg-auto bg-right col-span-2 justify-self-center  w-[43rem]" src="/zapatilla.png" alt="">
-		<img class="mano-top justify-self-center mr-96" src="/mano-top.png">
+		<img class="hero-zapatilla bg-[url(/bg-1.png)] bg-no-repeat bg-cover lg:bg-auto bg-right sm:col-span-2 sm:row-span-1 justify-self-center " src="/zapatilla.png" alt="">
+		<img class=" hidden lg:block mano-top justify-self-center mr-96" src="/mano-top.png">
 		
-		<img class="mano col-span-2  row-start-2 justify-self-center self-end" src="/mano1.png">
+		<img class="mano absolute right-20 sm:static sm:block lg:col-span-2  lg:row-start-2 justify-self-center self-end" src="/mano1.png">
 
 		
-		<div class=" relative col-span-4 justify-self-center self-center row-start-2 text-7xl font-black ">
+		<div class=" hidden sm:block relative lg:col-span-4 justify-self-center self-center row-start-2 text-7xl font-black ">
 		<p class="text-[#B8B8B8] tracking-[10px] ">SNEAKER</p>
 		<p class=" w-96 absolute text-white text-xs">No te conformes con lo ordinario elige lo extraordinario con las zapatillas Nike 
 		fashion que marcan tendencia en todo el mundo Hazte con un par hoy mismo y eleva tu estilo a nuevas alturas</p>
@@ -28,15 +28,15 @@ import Layout from '../layouts/Layout.astro';
 		
 	</hero>
 
-	<main class=" max-w-6xl mx-auto mt-[15rem]">
-		<h2 class="mb-20 text-5xl uppercase texto-con-gradiente">Modelos mas populares</h2>
-		<div class="flex">
+	<main class=" max-w-6xl mx-auto mt-[25rem] sm:mt-[15rem] ">
+		<h2 class="mb-20 text-4xl text-center lg:text-start sm:text-5xl uppercase texto-con-gradiente">Modelos mas populares</h2>
+		<div class="flex flex-col sm:flex-row items-center">
 		<Card href='/' img='/dunk1.png' title='New Balance 990v3 Sea Salt ' tipo='Zapatillas' tallas='Tallas 36/45' precio='80€'></Card>
 		<Card href='/' img='/dunk2.png' title='New Balance 990v3 Sea Salt ' tipo='Zapatillas' tallas='Tallas 36/45' precio='80€'></Card>
 		<Card href='/' img='/jordan.png' title='New Balance 990v3 Sea Salt ' tipo='Zapatillas' tallas='Tallas 36/45' precio='80€'></Card>
 		<Card href='/' img='/jordan.png' title='New Balance 990v3 Sea Salt ' tipo='Zapatillas' tallas='Tallas 36/45' precio='80€'></Card>
 		</div>
-		<div class="flex">
+		<div class="flex flex-col sm:flex-row items-center">
 		<Card href='/' img='/dunk1.png' title='New Balance 990v3 Sea Salt ' tipo='Zapatillas' tallas='Tallas 36/45' precio='80€'></Card>
 		<Card href='/' img='/dunk2.png' title='New Balance 990v3 Sea Salt ' tipo='Zapatillas' tallas='Tallas 36/45' precio='80€'></Card>
 		<Card href='/' img='/jordan.png' title='New Balance 990v3 Sea Salt ' tipo='Zapatillas' tallas='Tallas 36/45' precio='80€'></Card>
@@ -44,7 +44,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</main>
 
-	<article>
+	<article class=" w-auto p-5">
 		<div class="compra relative max-w-6xl mx-auto my-40 bg-[#faf8f5] rounded-[25px] p-20 ">
 			<div class=" w-[40rem]">
 				<h2 class=" text-4xl uppercase mb-10">Como comprar</h2>
@@ -68,12 +68,16 @@ import Layout from '../layouts/Layout.astro';
 
 <style>
 	hero{
-		grid-template-rows: repeat(2, 500px) ;
+		grid-template-rows: repeat(5, 500px) ;
 	}
-	h1 {
-		line-height: 150px;
+
+	@media ( min-width: 768px) { 
 		
+		hero{
+			grid-template-rows: repeat(2, 500px) ;
+		}
 	}
+
 	.hero-zapatilla{
 		animation: zapatilla-animacion 1.2s ease-in-out both;
 	}
