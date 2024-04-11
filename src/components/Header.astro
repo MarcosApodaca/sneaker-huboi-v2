@@ -3,17 +3,23 @@
 ---
 
 <header class=" left-0 right-0  mx-auto fixed top-0 z-10">
-    <nav id="nav" class=" flex p-5 text-[#faf8f5]">
+    <nav id="nav" class=" flex justify-between sm:justify-start p-5 text-[#faf8f5]">
         <a class=" inline-block  text-center" href="/">
         SNEAKERS <br>
         <span class=" font-bold">HUBOI</span>
         </a>
-        <div id="divNav"  class="flex flex-col ml-24">
+
+        <button type="button" id="menu" class=" menu-btn  sm:hidden">
+            <span class=" hidden">Boton Menu</span>
+            <img id="menuIcon" class=" w-10" src="/menu.svg" alt="Icono de menu de navegacion">
+        </button>
+
+        <div id="divNav"  class=" hidden sm:flex flex-col ml-24">
             <ul   class=" p-4 flex mb-2">
                 <li  ><a  id="zapatilla" class="m-4 inline" href="/zapatilla">MARCAS</a></li>
                 <li><a href="">WHATSAPP</a></li>
             </ul>
-            <div id="marcaZapatilla" class="lista  flex flex-wrap gap-20 ml-10 ">
+            <div id="marcaZapatilla" class=" lista  flex flex-wrap gap-20 ml-10 ">
                 <ul class="marcas  text-black">
                     <li><a class="icon1" href="/nike">Nike</a></li>
                     <li><a class="icon2" href="/"></a>New Balance</li>
@@ -171,3 +177,47 @@
     top:5px
 }    
 </style>
+
+<script>
+    
+    const nav = (document.getElementById("nav") as HTMLInputElement);
+
+    const menu:any= document.getElementById("menu")
+    const navMenu:any = document.getElementById("navMenu")
+    const menuIcon = (document.getElementById("menuIcon")as HTMLImageElement )
+    let estado = false
+    const menuOpen = "/menu.svg"
+    const menuClose = "/close-menu.svg"
+
+    menu.addEventListener('click', (event:any) => {
+    
+        event.stopPropagation(); 
+        if (estado === false){
+            nav.classList.add('nav-desplegado')
+            estado = true
+            menuIcon.src = menuClose
+
+    
+        } else if (estado === true){
+            nav.classList.toggle("show")
+            estado = false
+            menuIcon.src = menuOpen
+            
+        }
+      
+       
+    })
+    
+    
+    document.addEventListener('click', function() {
+        
+        if(estado === true) {
+            navMenu.classList.toggle("show")
+            estado = false
+            menuIcon.src = menuOpen
+        }
+      });
+    
+      
+    
+    </script>
