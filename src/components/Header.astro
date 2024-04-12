@@ -8,19 +8,21 @@
         SNEAKERS <br>
         <span class=" font-bold">HUBOI</span>
         </a>
+        
+        <ul class=" flex justify-between p-6 items-center sm:hidden bg-[#faf8f5] fixed bottom-0 w-full h-12 left-0 ">
+            <li><img src="/icon-home.png" class=" w-10" ></li>
+            <li><img src="/icon-whatsapp.png" alt=" w-10 "></li>
+            <li id="mobile-menu"><img src="/icon-shopping.png" class=" w-10" ></li>
+        </ul>
 
-        <button type="button" id="menu" class=" menu-btn  sm:hidden">
-            <span class=" hidden">Boton Menu</span>
-            <img id="menuIcon" class=" w-10" src="/menu.svg" alt="Icono de menu de navegacion">
-        </button>
-
-        <div id="divNav"  class=" hidden sm:flex flex-col ml-24">
+        <div id="divNav"  class="sm:flex flex-col ml-24">
             <ul   class=" p-4 flex mb-2">
-                <li  ><a  id="zapatilla" class="m-4 inline" href="/zapatilla">MARCAS</a></li>
-                <li><a href="">WHATSAPP</a></li>
+                <li class="hidden sm:inline"><a id="zapatilla" class=" m-4 sm:inline" href="/zapatilla">MARCAS</a></li>
+                <li class="hidden sm:inline"><a href="">WHATSAPP</a></li>
             </ul>
-            <div id="marcaZapatilla" class=" lista  flex flex-wrap gap-20 ml-10 ">
-                <ul class="marcas  text-black">
+            <div id="marcaZapatilla" class=" lista  flex flex-col justify-center sm:flex-row flex-wrap sm:gap-20 sm:ml-10 ">
+                <h3 class=" text-2xl  text-black"> Selecciona tu marca favorita</h3>
+                <ul class="marcas p-1  text-black">
                     <li><a class="icon1" href="/nike">Nike</a></li>
                     <li><a class="icon2" href="/"></a>New Balance</li>
                     <li><a class="icon3" href="/"></a>Adidas</li>
@@ -29,7 +31,7 @@
                     <li><a class="icon6" href="/"></a>Dolce and Gabbana</li>
                     <li><a class="icon7" href="/"></a>Balenciaga</li>
                 </ul>
-                <ul class=" text-black ">
+                <ul class=" p-1 text-black ">
                     <li><a class="icon8" href="/LouisVuitton">Louis Vuiiton</a></li>
                     <li><a class="icon9" href="//"></a>Golden Goose Stardan</li>
                     <li><a class="icon10" href="/"></a>Versace</li>
@@ -45,6 +47,11 @@
 
 <style>
 
+.show { 
+        left: 20%;
+        transition: left 1s; 
+}
+
 .lista{
     display: none;
     /* transform: translateY(-10px);
@@ -58,6 +65,17 @@
 
 .nav-abierto{
     display: block;
+}
+
+.nav-desplegado-mobile{
+    position: fixed;
+    background-color: #faf8f5;
+    height:94%;
+    width: 80%;
+    left: 20%;
+    top: 0;
+    padding: 2rem;
+    border-radius: 20px 0 0 20px;
 }
 
 .nav-desplegado{
@@ -181,43 +199,22 @@
 <script>
     
     const nav = (document.getElementById("nav") as HTMLInputElement);
+    const mobileMenu:any= document.getElementById("mobile-menu")
+    const marcaZapatilla = (document.getElementById("marcaZapatilla") as HTMLInputElement);
 
-    const menu:any= document.getElementById("menu")
-    const navMenu:any = document.getElementById("navMenu")
-    const menuIcon = (document.getElementById("menuIcon")as HTMLImageElement )
-    let estado = false
-    const menuOpen = "/menu.svg"
-    const menuClose = "/close-menu.svg"
+    let estado = false;
 
-    menu.addEventListener('click', (event:any) => {
-    
-        event.stopPropagation(); 
-        if (estado === false){
-            nav.classList.add('nav-desplegado')
-            estado = true
-            menuIcon.src = menuClose
-
-    
-        } else if (estado === true){
-            nav.classList.toggle("show")
-            estado = false
-            menuIcon.src = menuOpen
-            
-        }
-      
-       
+    mobileMenu.addEventListener('click', () => {
+        marcaZapatilla.classList.toggle('nav-desplegado-mobile')
+        marcaZapatilla.classList.toggle('lista-marcas')
     })
     
     
-    document.addEventListener('click', function() {
-        
-        if(estado === true) {
-            navMenu.classList.toggle("show")
-            estado = false
-            menuIcon.src = menuOpen
-        }
-      });
-    
-      
+    // document.addEventListener('click', function() {
+    //     if(estado === true) {
+    //         nav.classList.toggle("nav-desplegado-mobile")
+    //         estado = false
+    //     }
+    //   });
     
     </script>
