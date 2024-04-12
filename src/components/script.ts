@@ -18,11 +18,11 @@ zapatilla.addEventListener('mouseenter', () => {
 });
 
  
-nav.addEventListener('mouseleave', () => {
-  nav.classList.remove('nav-desplegado')
-  marcaZapatilla.classList.remove('lista-marcas')
+// nav.addEventListener('mouseleave', () => {
+//   nav.classList.remove('nav-desplegado')
+//   marcaZapatilla.classList.remove('lista-marcas')
   
-});
+// });
 
 
 
