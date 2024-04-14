@@ -9,21 +9,19 @@
 
 
 
-zapatilla.addEventListener('mouseenter', () => {
-    // marcaZapatilla.classList.add('nav-abierto')
-    // zapatilla.classList.add('abrir-nav');
-  nav.classList.add('nav-desplegado')
-  marcaZapatilla.classList.add('lista-marcas')
-
-});
-
- 
-// nav.addEventListener('mouseleave', () => {
-//   nav.classList.remove('nav-desplegado')
-//   marcaZapatilla.classList.remove('lista-marcas')
+  zapatilla.addEventListener("mouseenter", () => {
+    if (window.innerWidth >= 1024) {
+      nav.classList.add("nav-desplegado");
+      marcaZapatilla.classList.add("lista-marcas");
+    }
+  });
   
-// });
-
+  nav.addEventListener("mouseleave", () => {
+    if (window.innerWidth >= 1024) {
+      nav.classList.remove("nav-desplegado");
+      marcaZapatilla.classList.remove("lista-marcas");
+    }
+  });
 
 
 
