@@ -4,7 +4,7 @@
 
 <header class=" left-0 right-0  mx-auto fixed top-0 z-10">
     <nav id="nav" class=" flex justify-between sm:justify-start p-5 text-[#faf8f5]">
-        <a class=" inline-block  text-center" href="/">
+        <a class=" h-0  text-center" href="/">
         SNEAKERS <br>
         <span class=" font-bold">HUB01</span>
         </a>
@@ -37,11 +37,11 @@
                 </ul>
                 <ul class=" p-1 text-black leading-normal">
                     <li><a class="i icon8" href="/LouisVuitton">Louis Vuiiton</a></li>
-                    <li><a class="i icon9" href="//"></a>Golden Goose Stardan</li>
+                    <li><a class="i icon9" href="/"></a>Golden Goose Stardan</li>
                     <li><a class="i icon10" href="/"></a>Versace</li>
                     <li><a class="i icon11" href="/"></a>Louboutin</li>
                     <li><a class="i icon12" href="/"></a>Alexander McQueen</li>
-                    <li><a class="i icon13" href="/"></a>Ugg Tasman</li>
+                    <li><a class="i icon13" href="/uggTasman"></a>Ugg Tasman</li>
                 </ul>
             </div>
         </div>
@@ -160,7 +160,7 @@ li > i {
     }
         
     
-    a:hover{
+    .i > a:hover{
         color: #fff;    
     }
 
@@ -262,9 +262,11 @@ li > i {
     let estado = false;
 
     mobileMenu.addEventListener('click', () => {
+    if((window.innerWidth <= 640)){
         marcaZapatilla.classList.toggle('lista-marcas')
         marcaZapatilla.classList.toggle('nav-desplegado-mobile')
         marcaZapatilla.classList.toggle('abierto');
+    }
         // if (estado === false) {
         //     marcaZapatilla.style.animationName = 'despliegueNavMobile'; 
         //     estado = true
