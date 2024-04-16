@@ -7,29 +7,31 @@ export interface Productos {
 	tipo:string;
 	tallas:string
 	precio: string;
-	
+	flipImage?: boolean;
 }
 
-const {href, img, title, tipo, tallas, precio } = Astro.props;
+const {href, img, title, tipo, tallas, precio, flipImage } = Astro.props;
 ---
 
 <li class="card">
 	<a href={href}>
-	<div class="card-img mb-10 mx-5">
+	<div class="card-img mb-10 mx-5 flex flex-col justify-between">
 		<h4>{title}</h4>
-		<img class=" w-96" loading="lazy"  src={img} alt="imagen">
+		<img class={flipImage ? " w-96 flipped-image" : "w-96"} loading="lazy"  src={img} alt="imagen">
+		<div>
 		<p>{tipo}</p>
 		<p>{tallas}</p>
 		<p class="precio">{precio}</p>
+		</div>
 	</div>
 	</a>
 
 </li>
 
 <style>
-	img{
+	.flipImage{
 		transform: scaleX(-1);
-		transform: rotate(-3deg) scaleX(-1);
+		
 	}
 	.card{
 		list-style: none;
