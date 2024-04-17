@@ -1,15 +1,15 @@
 ---
 import Card from "../components/Card.astro";
 import Layout from "../layouts/Layout.astro";
-import { adidas_productos } from "../components/productos";
+import { balenciaga_productos } from "../components/productos";
 
 ---
 
 <Layout title="marca nike">
     <main class=" max-w-[85rem] mx-auto mt-48 sm:mt-60"> 
-        <h1 class=" leading-normal text-center sm:text-start text-5xl sm:text-7xl text-[#faf8f5] mb-28 sm:mb-40 ">Zapatilla Adidas</h1>
+        <h1 class=" leading-normal text-center sm:text-start text-5xl sm:text-7xl text-[#faf8f5] mb-28 sm:mb-40 ">Balenciaga</h1>
         <ul class="flex flex-col sm:flex-row sm:flex-wrap items-center">
-            {adidas_productos.map((producto:any) => (
+            {balenciaga_productos.map((producto:any) => (
                 <Card
                     href={producto.href}
                     img={producto.img}
