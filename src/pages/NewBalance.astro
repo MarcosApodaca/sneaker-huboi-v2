@@ -1,37 +1,7 @@
 ---
 import Card from "../components/Card.astro";
 import Layout from "../layouts/Layout.astro";
-
-
-const productos = [
-    {href:'/', img:'/New-Balance/New Balance-550.webp', title:'New Balance 550', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€',},
-    {href:'/', img:'/New-Balance/New Balance-550-2.webp', title:'New Balance 550', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
-    {href:'/', img:'/New-Balance/New Balance-550-3.webp', title:'New Balance 550', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€',},
-    {href:'/', img:'/New-Balance/New Balance-550-4.webp', title:'New Balance 550', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€',},
-    {href:'/', img:'/New-Balance/New Balance-550-5.webp', title:'New Balance 550', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€',},
-    {href:'/', img:'/New-Balance/New Balance-550-6.webp', title:'New Balance 550', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€',},
-    {href:'/', img:'/New-Balance/New Balance-7.webp', title:'New Balance', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€'},
-    {href:'/', img:'/New-Balance/New Balance-8.webp', title:'New Balance', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€'},
-    {href:'/', img:'/New-Balance/New Balance-9.webp', title:'New Balance', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€'},
-    {href:'/', img:'/New-Balance/New Balance-10.webp', title:'New Balance', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€'},
-    {href:'/', img:'/New-Balance/New Balance-11.webp', title:'New Balance', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€'},
-    {href:'/', img:'/New-Balance/New Balance-12.webp', title:'New Balance', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€'},
-    {href:'/', img:'/New-Balance/New Balance-13.webp', title:'New Balance', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€'},
-    {href:'/', img:'/New-Balance/New Balance-14.webp', title:'New Balance', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€'},
-    {href:'/', img:'/New-Balance/New Balance-16.webp', title:'New Balance', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€'},
-    {href:'/', img:'/New-Balance/New Balance-17.webp', title:'New Balance', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€'},
-    {href:'/', img:'/New-Balance/New Balance-18.webp', title:'New Balance', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€'},
-]
-
-
-let tipoSeleccionado = ''; 
-
-function filtrarProductos() {
-        return productos.filter((producto) => {
-            const cumpleTipo = !tipoSeleccionado || producto.tipo === tipoSeleccionado;
-            return cumpleTipo;
-        });
-}
+import { new_balance_productos } from "../components/productos";
     
 ---
 
@@ -40,29 +10,14 @@ function filtrarProductos() {
 
         <h1 class=" leading-normal text-center sm:text-start text-5xl sm:text-7xl text-[#faf8f5] mb-28 sm:mb-40 ">New Balance</h1>
         
-        <select @change={(e: Event) => (tipoSeleccionado = (e.target as HTMLSelectElement).value)}>
+        <select>
             <option value="">Todos los tipos</option>
             <option value="Zapatillas">Zapatillas</option>
             <option value="Camiseta">Camiseta</option>
         </select>
 
         <ul class="flex flex-col sm:flex-row sm:flex-wrap items-center">
-            {filtrarProductos().map((producto) => (
-                <Card
-                    href={producto.href}
-                    img={producto.img}
-                    title={producto.title}
-                    tipo={producto.tipo}
-                    tallas={producto.tallas}
-                    precio={producto.precio}
-                    flipImage={true} // Opcional: Puedes ajustar esta prop según tus necesidades
-                />
-
-            ))}
-        </ul>
-
-        <!-- <ul class="flex flex-col sm:flex-row sm:flex-wrap items-center">
-            {productos.map((producto:any) => (
+            {new_balance_productos.map((producto:any) => (
                 <Card
                     href={producto.href}
                     img={producto.img}
@@ -71,11 +26,10 @@ function filtrarProductos() {
                     tipo={producto.tipo}
                     tallas={producto.tallas}
                     precio={producto.precio}
-                    flipImage={true} // Opcional: Puedes ajustar esta prop según tus necesidades
+                    flipImage={true}
                 />
             ))}
-        </ul> -->
+        </ul>
     </main>
-
 
 </Layout>
