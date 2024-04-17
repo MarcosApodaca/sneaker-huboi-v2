@@ -1,23 +1,16 @@
 ---
-export interface Productos {
-	href: string;
-	img: string;
-	title: string;
-	marca:string;
-	tipo:string;
-	tallas:string
-	precio: string;
-	flipImage?: boolean;
-}
 
-const {href, img, title, tipo, tallas, precio, flipImage } = Astro.props;
+
+const { img, title, tipo, tallas, precio, flipImage } = Astro.props;
+
+
 ---
 
-<li class="card">
-	<a href={href}>
-	<div class="card-img mb-10 mx-5 flex flex-col justify-between">
+<li id="overlay" class=" overlay card">
+	<a href={img}>
+	<div id="modal" class="modal card-img mb-10 mx-5 flex flex-col justify-between">
 		<h4>{title}</h4>
-		<img class={flipImage ? " w-96 flipped-image" : "w-96"} loading="lazy"  src={img} alt="imagen">
+		<img id="modalImg" class={flipImage ? " w-96 flipped-image" : "w-96"} loading="lazy"  src={img} alt="imagen">
 		<div>
 		<p>{tipo}</p>
 		<p>{tallas}</p>
@@ -27,7 +20,21 @@ const {href, img, title, tipo, tallas, precio, flipImage } = Astro.props;
 	</a>
 
 </li>
+<script>
+	const modalImg = document.getElementById('modalImg') as HTMLImageElement;
+const overlay = document.getElementById('overlay') as HTMLElement;
+const modal = document.getElementById('modal') as HTMLElement;
 
+modalImg.addEventListener('click', () => {
+  overlay.style.display = 'block';
+  modal.style.display = 'block';
+});
+
+overlay.addEventListener('click', () => {
+  overlay.style.display = 'none';
+  modal.style.display = 'none';
+});
+</script>
 <style>
 	.flipImage{
 		transform: scaleX(-1);
