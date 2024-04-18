@@ -1531,3 +1531,40 @@ export const amiri_productos = [
     { img:'/amiri/Sudaderas-jerseys (32).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
     
 ]
+
+export const bolsos_productos = [
+
+    { img:'/bolso/bolsos (1).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (2).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (3).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (4).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (5).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (6).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (7).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (8).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (9).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (10).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (11).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (12).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (13).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (14).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (15).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (16).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (17).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (18).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (19).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (20).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (21).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (22).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (23).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (24).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (25).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (26).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (27).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (28).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (29).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (30).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (31).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/bolso/bolsos (32).webp', title:'Bolso', tipo:'Bolso', tallas:'Tallas 36/45', precio:'80€',},
+    
+]
