@@ -1017,3 +1017,27 @@ export const moncler_productos = [
     { img:'/moncler/Sudaderasjeeseys (18).webp', title:'Moncler', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
     { img:'/moncler/Sudaderasjeeseys (19).webp', title:'Moncler', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
 ]
+
+export const loewe_productos = [
+    
+    {img: '/loewe/Camisetas (1).webp', title: 'Loewe', tipo: 'Camiseta', tallas: 'Tallas S/XL', precio: '45€'},
+    {img: '/loewe/Camisetas (2).webp', title: 'Loewe', tipo: 'Camiseta', tallas: 'Tallas S/XL', precio: '45€'},
+    {img: '/loewe/Camisetas (3).webp', title: 'Loewe', tipo: 'Camiseta', tallas: 'Tallas S/XL', precio: '45€'},
+    {img: '/loewe/Camisetas (4).webp', title: 'Loewe', tipo: 'Camiseta', tallas: 'Tallas S/XL', precio: '45€'},
+    {img: '/loewe/Pantalon (2).webp', title: 'Loewe', tipo: 'Pantalon', tallas: 'Tallas S/XL', precio: '50€'},
+    {img: '/loewe/Pantalon.webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},
+    {img: '/loewe/Sudaderas-jerseys (1).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+    {img: '/loewe/Sudaderas-jerseys (2).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+    {img: '/loewe/Sudaderas-jerseys (3).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+    {img: '/loewe/Sudaderas-jerseys (4).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+    {img: '/loewe/Sudaderas-jerseys (5).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+    {img: '/loewe/Sudaderas-jerseys (6).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+    {img: '/loewe/Sudaderas-jerseys (7).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+    {img: '/loewe/Sudaderas-jerseys (8).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+    {img: '/loewe/Sudaderas-jerseys (9).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+    {img: '/loewe/Sudaderas-jerseys (10).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+    {img: '/loewe/Sudaderas-jerseys (11).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+    {img: '/loewe/Sudaderas-jerseys (12).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+    {img: '/loewe/Sudaderas-jerseys (13).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+    {img: '/loewe/Sudaderas-jerseys (14).webp', title: 'Loewe', tipo: 'Sudadera', tallas: 'Tallas S/XL', precio: '50€'},    
+]
