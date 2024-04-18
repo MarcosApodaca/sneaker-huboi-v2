@@ -769,3 +769,23 @@ export const palm_angels_productos = [
     { img:'/palm-angels/sudadera (17).webp', title:'Palm Angels', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
     { img:'/palm-angels/sudadera (18).webp', title:'Palm Angels', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
 ]
+
+export const off_white_productos = [
+
+    { img:'/off-white/Camisetas-OFF-WHITE (1).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (2).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (3).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (4).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (5).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (6).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (7).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (8).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (9).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (10).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (11).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (12).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (13).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (14).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (15).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/off-white/Camisetas-OFF-WHITE (16).webp', title:'Palm Angels', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+]
