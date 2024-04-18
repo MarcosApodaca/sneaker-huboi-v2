@@ -279,6 +279,7 @@ export const dolce_and_gabbana_productos = [
     { img:'/dolce-and-gabbana/Sudaderas-Jerseys (10).webp', title:'Dolce & Gabbana', tipo:'Sudaderas/Jerseys', tallas:'Tallas 36/45', precio:'80€',},
     { img:'/dolce-and-gabbana/Sudaderas-Jerseys (11).webp', title:'Dolce & Gabbana', tipo:'Sudaderas/Jerseys', tallas:'Tallas 36/45', precio:'80€',},
 ]
+
 export const balenciaga_productos = [
     
     { img:'/balenciaga/zapatilla/Balenciaga-zapatillas (1).webp', title:'Balenciaga', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
@@ -1478,4 +1479,55 @@ export const balmain_productos = [
     { img:'/balmain/Sudaderas-jerseys (16).webp', title:'Balmain', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
     { img:'/balmain/Sudaderas-jerseys (17).webp', title:'Balmain', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
     { img:'/balmain/Sudaderas-jerseys (18).webp', title:'Balmain', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+]
+
+export const amiri_productos = [
+
+    { img:'/amiri/Camiseta (1).webp', title:'Amiri', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Camiseta (2).webp', title:'Amiri', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Camiseta (3).webp', title:'Amiri', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Camiseta (4).webp', title:'Amiri', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Camiseta (11).webp', title:'Amiri', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Camiseta (5).webp', title:'Amiri', tipo:'Chandal', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Camiseta (6).webp', title:'Amiri', tipo:'Chandal', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Camiseta (7).webp', title:'Amiri', tipo:'Chandal', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Camiseta (8).webp', title:'Amiri', tipo:'Chandal', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Camiseta (9).webp', title:'Amiri', tipo:'Chandal', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Camiseta (10).webp', title:'Amiri', tipo:'Chandal', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Chandal.webp', title:'Amiri', tipo:'Chandal', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Chaqueta-bomber (1).webp', title:'Amiri', tipo:'Chaqueta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Chaqueta-bomber (2).webp', title:'Amiri', tipo:'Chaqueta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (1).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (2).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (3).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (4).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (5).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (6).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (7).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (8).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (9).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (10).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (11).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (12).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (13).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (14).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (15).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (16).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (17).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (18).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (19).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (20).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (21).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (22).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (23).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (24).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (25).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (26).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (27).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (28).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (29).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (30).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (31).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/amiri/Sudaderas-jerseys (32).webp', title:'Amiri', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    
 ]
