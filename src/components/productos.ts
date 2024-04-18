@@ -1329,3 +1329,33 @@ export const dsquared2_productos = [
     { img:'/dsquared2/Sudaderas (2).webp', title:'Dsquared2', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'60€',},  
     { img:'/dsquared2/Sudaderas (3).webp', title:'Dsquared2', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'60€',},  
 ]
+
+export const celine_productos = [           
+    { img:'/celine/Camisetas (1).webp', title:'Celine', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Camisetas (2).webp', title:'Celine', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Camisetas (3).webp', title:'Celine', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Camisetas (4).webp', title:'Celine', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Camisetas (5).webp', title:'Celine', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Camisetas (6).webp', title:'Celine', tipo:'Camiseta', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Chaqueta-bomber (1).webp', title:'Celine', tipo:'Chaqueta', tallas:'Tallas S/XL', precio:'60€',},        
+    { img:'/celine/Chaqueta-bomber (2).webp', title:'Celine', tipo:'Chaqueta', tallas:'Tallas S/XL', precio:'60€',},        
+    { img:'/celine/Chaqueta-bomber (3).webp', title:'Celine', tipo:'Chaqueta', tallas:'Tallas S/XL', precio:'60€',},
+    { img:'/celine/Chaqueta-bomber (4).webp', title:'Celine', tipo:'Chaqueta', tallas:'Tallas S/XL', precio:'60€',},  
+    { img:'/celine/Chaqueta-bomber (5).webp', title:'Celine', tipo:'Chaqueta', tallas:'Tallas S/XL', precio:'60€',},
+    { img:'/celine/Sudaderas-jerseys (1).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (2).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (3).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (4).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (5).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (6).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (7).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (8).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (9).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (10).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (11).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (12).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (13).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (14).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/celine/Sudaderas-jerseys (15).webp', title:'Celine', tipo:'Sudadera', tallas:'Tallas 36/45', precio:'80€',},
+  
+]
