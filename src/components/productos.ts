@@ -1158,3 +1158,20 @@ export const givenchy_productos = [
     { img:'/givenchy/Sudaderas-Jerseys (12).webp', title:'Gucci', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},
     { img:'/givenchy/Sudaderas-Jerseys (13).webp', title:'Gucci', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},       
 ]
+
+export const fog_essentials_productos = [    
+    { img:'/fog-essentials/Pantalones (1).webp', title:'Fog Essentials', tipo:'Pantalon', tallas:'Tallas S/XL', precio:'60€',},        
+    { img:'/fog-essentials/Pantalones (2).webp', title:'Fog Essentials', tipo:'Pantalon', tallas:'Tallas S/XL', precio:'60€',},        
+    { img:'/fog-essentials/Pantalones (3).webp', title:'Fog Essentials', tipo:'Pantalon', tallas:'Tallas S/XL', precio:'60€',},        
+    { img:'/fog-essentials/Sudaderas (1).webp', title:'Fog Essentials', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/fog-essentials/Sudaderas (2).webp', title:'Fog Essentials', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/fog-essentials/Sudaderas (3).webp', title:'Fog Essentials', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/fog-essentials/Sudaderas (4).webp', title:'Fog Essentials', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/fog-essentials/Sudaderas (5).webp', title:'Fog Essentials', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/fog-essentials/Sudaderas (6).webp', title:'Fog Essentials', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/fog-essentials/Sudaderas (7).webp', title:'Fog Essentials', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/fog-essentials/Sudaderas (8).webp', title:'Fog Essentials', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/fog-essentials/Sudaderas (9).webp', title:'Fog Essentials', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/fog-essentials/Sudaderas (10).webp', title:'Fog Essentials', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/fog-essentials/Sudaderas (11).webp', title:'Fog Essentials', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},   
+]
