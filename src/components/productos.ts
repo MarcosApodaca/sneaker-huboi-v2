@@ -1175,3 +1175,26 @@ export const fog_essentials_productos = [
     { img:'/fog-essentials/Sudaderas (10).webp', title:'Fog Essentials', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},
     { img:'/fog-essentials/Sudaderas (11).webp', title:'Fog Essentials', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},   
 ]
+
+export const dsquared2_productos = [           
+    { img:'/dsquared2/Camisetas (1).webp', title:'Dsquared2', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/dsquared2/Camisetas (2).webp', title:'Dsquared2', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/dsquared2/Camisetas (3).webp', title:'Dsquared2', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/dsquared2/Camisetas (4).webp', title:'Dsquared2', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/dsquared2/Camisetas (5).webp', title:'Dsquared2', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/dsquared2/Camisetas (6).webp', title:'Dsquared2', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/dsquared2/Camisetas (7).webp', title:'Dsquared2', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/dsquared2/Camisetas (8).webp', title:'Dsquared2', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/dsquared2/Camisetas (9).webp', title:'Dsquared2', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/dsquared2/Camisetas (10).webp', title:'Dsquared2', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/dsquared2/Camisetas (11).webp', title:'Dsquared2', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'70€',},   
+    { img:'/dsquared2/Camisetas (12).webp', title:'Dsquared2', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'70€',},   
+    { img:'/dsquared2/Camisetas (13).webp', title:'Dsquared2', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'70€',},  
+    { img:'/dsquared2/Pantalones (1).webp', title:'Dsquared2', tipo:'Pantalon', tallas:'Tallas S/XL', precio:'60€',},        
+    { img:'/dsquared2/Pantalones (2).webp', title:'Dsquared2', tipo:'Pantalon', tallas:'Tallas S/XL', precio:'60€',},        
+    { img:'/dsquared2/Pantalones (3).webp', title:'Dsquared2', tipo:'Pantalon', tallas:'Tallas S/XL', precio:'60€',},  
+    { img:'/dsquared2/Pantalones (4).webp', title:'Dsquared2', tipo:'Pantalon', tallas:'Tallas S/XL', precio:'60€',},  
+    { img:'/dsquared2/Sudaderas (1).webp', title:'Dsquared2', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'60€',},  
+    { img:'/dsquared2/Sudaderas (2).webp', title:'Dsquared2', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'60€',},  
+    { img:'/dsquared2/Sudaderas (3).webp', title:'Dsquared2', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'60€',},  
+]
