@@ -189,16 +189,16 @@ export const adidas_productos:Productos[] = [
     { img:'/adidas/adidas-32.webp', marca:'Adidas', title:'Campus Blue', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'70€'},
 ]
 
-export const converse_productos = [
-    { img:'/converse/converse.webp', marca:'Converse', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/converse/converse-1.webp', marca:'Converse', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/converse/converse-2.webp', marca:'Converse', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/converse/converse-3.webp', marca:'Converse', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/converse/converse-4.webp', marca:'Converse', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/converse/converse-5.webp', marca:'Converse', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€',},
+export const converse_productos:Productos[] = [
+    { img:'/converse/converse.webp', marca:'Converse', title:'Chuck Taylor Vulcanized Off White', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/converse/converse-1.webp', marca:'Converse', title:'Chuk Taylor Play Black', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'75€',},
+    { img:'/converse/converse-2.webp', marca:'Converse', title:'Chuk Taylor Play Beige', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'75€',},
+    { img:'/converse/converse-3.webp', marca:'Converse', title:'Chuk Taylor Play Grey', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'75€',},
+    { img:'/converse/converse-4.webp', marca:'Converse', title:'Run Star Black', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'75€',},
+    { img:'/converse/converse-5.webp', marca:'Converse', title:'Run Star White', tipo:'Zapatillas', tallas:'Tallas 36/45', precio:'75€',},
 ]
 
-export const trapstar_productos = [
+export const trapstar_productos:Productos[] = [
     { img:'/trapstar/Camisetas  (1).webp', marca:'Trapstar', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/trapstar/Camisetas  (2).webp', marca:'Trapstar', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/trapstar/Camisetas  (3).webp', marca:'Trapstar', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
