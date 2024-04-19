@@ -42,28 +42,28 @@
                     <li><a class="i icon11" href="/louboutin"></a>Louboutin</li>
                     <li><a class="i icon12" href="/alexanderMcQueen"></a>Alexander McQueen</li>
                     <li><a class="i icon13" href="/uggTasman"></a>Ugg Tasman</li>
-                    <li><a class="i icon13" href="/theNorthFace"></a>The North Face</li>
+                    <li><a class="i " href="/theNorthFace"></a>The North Face</li>
                 </ul>
                 <ul class=" p-1 text-black leading-normal">
-                    <li><a class="i icon13" href="/prada"></a>Prada</li>
-                    <li><a class="i icon13" href="/palmangels"></a>Palm Angels</li>
-                    <li><a class="i icon13" href="/offWhite"></a>Off White</li>
-                    <li><a class="i icon13" href="/moncler"></a>Moncler</li>
-                    <li><a class="i icon13" href="/loewe"></a>Loewe</li>
-                    <li><a class="i icon13" href="/gucci"></a>Gucci</li>
-                    <li><a class="i icon13" href="/givenchy"></a>Givenchy</li>
-                    <li><a class="i icon13" href="/dsquared2"></a>Dsquared2</li>
+                    <li><a class="i icon15" href="/prada"></a>Prada</li>
+                    <li><a class="i icon16" href="/palmangels"></a>Palm Angels</li>
+                    <li><a class="i icon17" href="/offWhite"></a>Off White</li>
+                    <li><a class="i icon18" href="/moncler"></a>Moncler</li>
+                    <li><a class="i icon19" href="/loewe"></a>Loewe</li>
+                    <li><a class="i icon20" href="/gucci"></a>Gucci</li>
+                    <li><a class="i icon21" href="/givenchy"></a>Givenchy</li>
+                    <li><a class="i icon22" href="/dsquared2"></a>Dsquared2</li>
                 </ul>
 
                 <ul class=" p-1 text-black leading-normal">
-                <li><a class="i icon13" href="/dior"></a>Dior</li>
-                <li><a class="i icon13" href="/corteiz"></a>Corteiz</li>
-                <li><a class="i icon13" href="/celine"></a>Celine</li>
-                <li><a class="i icon13" href="/burberry"></a>Burberry</li>
-                <li><a class="i icon13" href="/balmain"></a>Balmain</li>
-                <li><a class="i icon13" href="/amiri"></a>Amiri</li>
-                <li><a class="i icon13" href="/fogessentials"></a>Fear of God Essentials</li>
-                <li><a class="i icon13" href="/bolsos"></a>Bolsos</li>
+                <li><a class="i icon23" href="/dior"></a>Dior</li>
+                <li><a class="i icon24" href="/corteiz"></a>Corteiz</li>
+                <li><a class="i icon25" href="/celine"></a>Celine</li>
+                <li><a class="i icon26" href="/burberry"></a>Burberry</li>
+                <li><a class="i icon27" href="/balmain"></a>Balmain</li>
+                <li><a class="i icon28" href="/amiri"></a>Amiri</li>
+                <li><a class="i icon29" href="/fogessentials"></a>Fear of God Essentials</li>
+                <li><a class="i icon30" href="/bolsos"></a>Bolsos</li>
                 </ul>
 
             </div>
@@ -73,6 +73,22 @@
 </header>
 
 <style>
+
+header{
+    animation: header-bg linear forwards;
+	animation-timeline: scroll();
+	animation-range: 0vh 50vh;
+}
+
+@keyframes header-bg {
+	from {
+		background-color: transparent;
+	}
+	to {
+		background-color: #111111;
+	}
+}
+
 
 li > i {
     padding: .5rem;
@@ -272,6 +288,11 @@ li > i {
 }    
 .icon13::before{
     content: url(/icon/UGG_logo.png);  /* Ruta al tercer tipo de icono */
+    position: relative;
+    top:5px
+}    
+.icon14::before{
+    content: url(/icon/the-north-face-logo.png);  /* Ruta al tercer tipo de icono */
     position: relative;
     top:5px
 }    
