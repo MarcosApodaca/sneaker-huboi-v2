@@ -216,11 +216,11 @@ export const trapstar_productos:Productos[] = [
     { img:'/trapstar/Chaquetas  (2).webp', marca:'Trapstar', tipo:'Chaqueta', tallas:'Tallas S/XL', precio:'120€',},
     { img:'/trapstar/Chaquetas  (3).webp', marca:'Trapstar', tipo:'Chaqueta', tallas:'Tallas S/XL', precio:'120€',},
     { img:'/trapstar/Chaquetas  (4).webp', marca:'Trapstar', tipo:'Chaqueta', tallas:'Tallas S/XL', precio:'120€',},
-    { img:'/trapstar/Sudadera.webp', marca:'Trapstar', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'60€',},
-    { img:'/trapstar/Sudaderas (1).webp', marca:'Trapstar', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'60€',},
-    { img:'/trapstar/Sudaderas (2).webp', marca:'Trapstar', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'60€',},
-    { img:'/trapstar/Sudaderas (3).webp', marca:'Trapstar', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'60€',},
-    { img:'/trapstar/Sudaderas (4).webp', marca:'Trapstar', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'60€',},
+    { img:'/trapstar/Sudadera.webp', marca:'Trapstar', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'60€',},
+    { img:'/trapstar/Sudaderas (1).webp', marca:'Trapstar', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'60€',},
+    { img:'/trapstar/Sudaderas (2).webp', marca:'Trapstar', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'60€',},
+    { img:'/trapstar/Sudaderas (3).webp', marca:'Trapstar', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'60€',},
+    { img:'/trapstar/Sudaderas (4).webp', marca:'Trapstar', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'60€',},
 ]
 
 export const dolce_and_gabbana_productos:Productos[] = [
@@ -556,14 +556,14 @@ export const golden_goose_stardan_productos:Productos[] = [
     { img:'/golden-goose-stardan/zapatilla-golden-goose (14).webp', marca:'Golden Goose', tipo:'Zapatilla', title:'SuperStar Stardan Black', tallas:'Tallas 36/45', precio:'90€',},
 ]
 
-export const versace_productos = [
+export const versace_productos:Productos[] = [
     
-    { img:'/versace/versace-zapatilla-1.webp', marca:'Versace', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/versace/versace-zapatilla-2.webp', marca:'Versace', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/versace/versace-zapatilla-3.webp', marca:'Versace', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/versace/versace-zapatilla-4.webp', marca:'Versace', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/versace/versace-zapatilla-5.webp', marca:'Versace', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/versace/versace-zapatilla-6.webp', marca:'Versace', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/versace/versace-zapatilla-1.webp', marca:'Versace', tipo:'Zapatilla', title:'Chain Reaction Black', tallas:'Tallas 36/45', precio:'110€',},
+    { img:'/versace/versace-zapatilla-2.webp', marca:'Versace', tipo:'Zapatilla', title:'Chain Reaction White Mesh', tallas:'Tallas 36/45', precio:'110€',},
+    { img:'/versace/versace-zapatilla-3.webp', marca:'Versace', tipo:'Zapatilla', title:'Chain Reaction Gray', tallas:'Tallas 36/45', precio:'110€',},
+    { img:'/versace/versace-zapatilla-4.webp', marca:'Versace', tipo:'Zapatilla', title:'Chain Reaction Chainz Black', tallas:'Tallas 36/45', precio:'110€',},
+    { img:'/versace/versace-zapatilla-5.webp', marca:'Versace', tipo:'Zapatilla', title:'Chain Reaction Blue Mesh', tallas:'Tallas 36/45', precio:'110€',},
+    { img:'/versace/versace-zapatilla-6.webp', marca:'Versace', tipo:'Zapatilla', title:'Chain Reaction Multi Color', tallas:'Tallas 36/45', precio:'110€',},
     { img:'/versace/versace-1.webp', marca:'Versace', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/versace/versace-2.webp', marca:'Versace', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/versace/versace-3.webp', marca:'Versace', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
@@ -580,22 +580,23 @@ export const versace_productos = [
     { img:'/versace/versace-14.webp', marca:'Versace', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/versace/versace-15.webp', marca:'Versace', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/versace/versace-16.webp', marca:'Versace', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
-    { img:'/versace/versace-17.webp', marca:'Versace', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
-    { img:'/versace/versace-18.webp', marca:'Versace', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
-    { img:'/versace/versace-19.webp', marca:'Versace', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
-    { img:'/versace/versace-20.webp', marca:'Versace', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
-    { img:'/versace/versace-21.webp', marca:'Versace', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
-    { img:'/versace/versace-22.webp', marca:'Versace', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
-    { img:'/versace/versace-23.webp', marca:'Versace', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
-    { img:'/versace/sudadera-versace (1).webp', marca:'Versace', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/versace/sudadera-versace (2).webp', marca:'Versace', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/versace/sudadera-versace (3).webp', marca:'Versace', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/versace/sudadera-versace (4).webp', marca:'Versace', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/versace/sudadera-versace (5).webp', marca:'Versace', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/versace/sudadera-versace (6).webp', marca:'Versace', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'80€',},   
+    { img:'/versace/versace-17.webp', marca:'Versace', tipo:'Conjunto', tallas:'Tallas S/XL', precio:'100€',},
+    { img:'/versace/versace-18.webp', marca:'Versace', tipo:'Conjunto', tallas:'Tallas S/XL', precio:'100€',},
+    { img:'/versace/versace-19.webp', marca:'Versace', tipo:'Camisa/polo', tallas:'Tallas S/XL', precio:'55€',},
+    { img:'/versace/versace-20.webp', marca:'Versace', tipo:'Camisa/polo', tallas:'Tallas S/XL', precio:'55€',},
+    { img:'/versace/versace-21.webp', marca:'Versace', tipo:'Camisa/polo', tallas:'Tallas S/XL', precio:'55€',},
+    { img:'/versace/versace-22.webp', marca:'Versace', tipo:'Camisa/polo', tallas:'Tallas S/XL', precio:'55€',},
+    { img:'/versace/versace-23.webp', marca:'Versace', tipo:'Camisa/polo', tallas:'Tallas S/XL', precio:'55€',},
+    { img:'/versace/sudadera-versace (1).webp', marca:'Versace', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/versace/sudadera-versace (2).webp', marca:'Versace', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/versace/sudadera-versace (3).webp', marca:'Versace', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/versace/sudadera-versace (4).webp', marca:'Versace', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/versace/sudadera-versace (5).webp', marca:'Versace', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/versace/sudadera-versace (6).webp', marca:'Versace', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},   
 ]
 
-export const gucci_productos = [
+
+export const gucci_productos:Productos[] = [
     
     { img:'/gucci/Camisetas (1).webp', marca:'Gucci', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/gucci/Camisetas (2).webp', marca:'Gucci', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
@@ -683,6 +684,7 @@ export const gucci_productos = [
     { img:'/gucci/Sudaderas-jerseys (23).webp', marca:'Gucci', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},
     { img:'/gucci/Sudaderas-jerseys (24).webp', marca:'Gucci', tipo:'Sudadera', tallas:'Tallas S/XL', precio:'70€',},       
 ]
+
 export const dior_productos = [           
     { img:'/dior/camisetas (1).webp', marca:'Dior', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/dior/camisetas (2).webp', marca:'Dior', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
