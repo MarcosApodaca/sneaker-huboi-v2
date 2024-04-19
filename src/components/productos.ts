@@ -787,31 +787,31 @@ export const dior_productos:Productos[] = [
 
 
 export const louboutin_productos:Productos[] = [
-    { img:'/louboutin/Louboutin-1.webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/louboutin/Louboutin-2.webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/louboutin/Louboutin-3.webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/louboutin/Louboutin-4.webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/louboutin/Louboutin-5.webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/louboutin/Louboutin-6.webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/louboutin/Louboutin-7.webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
+    { img:'/louboutin/Louboutin-1.webp', marca:'Louboutin', tipo:'Zapatilla', title:'Junior Spikes Black', tallas:'Tallas 36/45', precio:'100€',},
+    { img:'/louboutin/Louboutin-2.webp', marca:'Louboutin', tipo:'Zapatilla', title:'Junior Spikes Panorama Blue', tallas:'Tallas 36/45', precio:'100€',},
+    { img:'/louboutin/Louboutin-3.webp', marca:'Louboutin', tipo:'Zapatilla', title:'Junior Spikes Foxy Brown', tallas:'Tallas 36/45', precio:'100€',},
+    { img:'/louboutin/Louboutin-4.webp', marca:'Louboutin', tipo:'Zapatilla', title:'Junior Spikes Smoky', tallas:'Tallas 36/45', precio:'100€',},
+    { img:'/louboutin/Louboutin-5.webp', marca:'Louboutin', tipo:'Zapatilla', title:'Junior Spikes White', tallas:'Tallas 36/45', precio:'100€',},
+    { img:'/louboutin/Louboutin-6.webp', marca:'Louboutin', tipo:'Zapatilla', title:'Spikes High Black', tallas:'Tallas 36/45', precio:'100€',},
+    { img:'/louboutin/Louboutin-7.webp', marca:'Louboutin', tipo:'Zapatilla', title:'Low Spikes Leather White', tallas:'Tallas 36/45', precio:'100€',},
 ]
 
-export const alexander_McQueen = [
-    
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (1).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (2).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (3).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (4).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (5).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (6).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (7).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (8).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (9).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (10).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (11).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (12).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (13).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
-    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (14).webp', marca:'Louboutin', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'80€',},
+
+export const alexander_McQueen:Productos[] = [
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (1).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Oversize White Antracite', tallas:'Tallas 36/45', precio:'90€',},
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (2).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Oversize Paris Blue', tallas:'Tallas 36/45', precio:'90€',},
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (3).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Oversize Red', tallas:'Tallas 36/45', precio:'90€',},
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (4).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Oversize Grey', tallas:'Tallas 36/45', precio:'90€',},
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (5).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Oversize Patchouli', tallas:'Tallas 36/45', precio:'90€',},
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (6).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Oversize Mint', tallas:'Tallas 36/45', precio:'90€',},
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (7).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Oversize Dream Blue', tallas:'Tallas 36/45', precio:'90€',},
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (8).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Oversize Black White', tallas:'Tallas 36/45', precio:'90€',},
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (9).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Oversize Black', tallas:'Tallas 36/45', precio:'90€',},
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (10).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Oversize White', tallas:'Tallas 36/45', precio:'90€',},
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (11).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Oversize Shock Pink', tallas:'Tallas 36/45', precio:'90€',},
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (12).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Oversize Chrome', tallas:'Tallas 36/45', precio:'90€',},
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (13).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Tread Slick White', tallas:'Tallas 36/45', precio:'90€',},
+    { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (14).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Tread Slick Beige', tallas:'Tallas 36/45', precio:'90€',},
 ]
 
 export const the_north_face_productos = [
