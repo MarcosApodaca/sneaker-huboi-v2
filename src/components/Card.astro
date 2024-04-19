@@ -1,7 +1,17 @@
 ---
 
+export interface Productos {
+	img: string;
+	marca: string;
+	title?: string;
+	tipo:string;
+	tallas:string
+	precio: string;
+	flipImage?: boolean;
+}
 
-const { img, title, tipo, tallas, precio, flipImage } = Astro.props;
+
+const { img, marca, title, tipo, tallas, precio, flipImage } = Astro.props;
 
 
 ---
@@ -9,7 +19,10 @@ const { img, title, tipo, tallas, precio, flipImage } = Astro.props;
 <li id="overlay" class=" overlay card">
 	<a href={img}>
 	<div id="modal" class="modal card-img mb-10 mx-5 flex flex-col justify-between">
-		<h4>{title}</h4>
+		<div>
+			<h2>{marca}</h2>
+			<h3>{title}</h3>
+		</div>
 		<img id="modalImg" class={flipImage ? " w-96 flipped-image" : "w-96"} loading="lazy"  src={img} alt="imagen">
 		<div>
 		<p>{tipo}</p>
