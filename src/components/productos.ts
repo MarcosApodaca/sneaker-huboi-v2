@@ -1455,7 +1455,7 @@ export const burberry_productos:Productos[] = [
   
 ]
 
-export const balmain_productos = [  
+export const balmain_productos:Productos[] = [  
     { img:'/balmain/Camisetas (1).webp', marca:'Balmain', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/balmain/Camisetas (2).webp', marca:'Balmain', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/balmain/Camisetas (3).webp', marca:'Balmain', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
@@ -1467,24 +1467,24 @@ export const balmain_productos = [
     { img:'/balmain/Camisetas (9).webp', marca:'Balmain', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/balmain/Camisetas (10).webp', marca:'Balmain', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/balmain/Camisetas (11).webp', marca:'Balmain', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
-    { img:'/balmain/Sudaderas-jerseys (1).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (2).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (3).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (4).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (5).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (6).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (7).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (8).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (9).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (10).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (11).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (12).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (13).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (14).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (15).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (16).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (17).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/balmain/Sudaderas-jerseys (18).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
+    { img:'/balmain/Sudaderas-jerseys (1).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (2).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (3).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (4).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (5).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (6).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (7).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (8).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (9).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (10).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (11).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (12).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (13).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (14).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (15).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (16).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (17).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/balmain/Sudaderas-jerseys (18).webp', marca:'Balmain', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
 ]
 
 export const amiri_productos = [
