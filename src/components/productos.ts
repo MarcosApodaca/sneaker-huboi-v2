@@ -866,7 +866,7 @@ export const the_north_face_productos:Productos[] = [
     
 ]
 
-export const prada_productos = [
+export const prada_productos:Productos[]  = [
 
     { img:'/prada/Camisetas (1).webp', marca:'Prada', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/prada/Camisetas (2).webp', marca:'Prada', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
@@ -984,7 +984,7 @@ export const prada_productos = [
     { img:'/prada/Sudaderas-jerseys (38).webp', marca:'Prada', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
 ]
 
-export const palm_angels_productos = [
+export const palm_angels_productos:Productos[]  = [
 
     { img:'/palm-angels/camiseta (1).webp', marca:'Palm Angels', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/palm-angels/camiseta (2).webp', marca:'Palm Angels', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
@@ -1087,7 +1087,7 @@ export const palm_angels_productos = [
     { img:'/palm-angels/sudadera (18).webp', marca:'Palm Angels', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
 ]
 
-export const off_white_productos = [
+export const off_white_productos:Productos[]  = [
 
     { img:'/off-white/Camisetas-OFF-WHITE (1).webp', marca:'Palm Angels', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/off-white/Camisetas-OFF-WHITE (2).webp', marca:'Palm Angels', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
@@ -1107,7 +1107,7 @@ export const off_white_productos = [
     { img:'/off-white/Camisetas-OFF-WHITE (16).webp', marca:'Palm Angels', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
 ]
 
-export const moncler_productos = [
+export const moncler_productos:Productos[]  = [
 
     { img:'/moncler/camisetas (1).webp', marca:'Moncler', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/moncler/camisetas (2).webp', marca:'Moncler', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
@@ -1211,7 +1211,7 @@ export const moncler_productos = [
     { img:'/moncler/Sudaderasjeeseys (19).webp', marca:'Moncler', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
 ]
 
-export const loewe_productos = [
+export const loewe_productos:Productos[]  = [
     
     {img: '/loewe/Camisetas (1).webp', marca: 'Loewe', tipo: 'Camiseta', tallas: 'Tallas S/XL', precio: '40€'},
     {img: '/loewe/Camisetas (2).webp', marca: 'Loewe', tipo: 'Camiseta', tallas: 'Tallas S/XL', precio: '40€'},
@@ -1235,7 +1235,7 @@ export const loewe_productos = [
     {img: '/loewe/Sudaderas-jerseys (14).webp', marca: 'Loewe', tipo: 'Sudadera/Jersey', tallas: 'Tallas S/XL', precio: '70€'},    
 ]
 
-export const givenchy_productos = [
+export const givenchy_productos:Productos[]  = [
     { img:'/givenchy/Camisetas (1).webp', marca:'Gucci', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/givenchy/Camisetas (2).webp', marca:'Gucci', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/givenchy/Camisetas (3).webp', marca:'Gucci', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
@@ -1263,7 +1263,7 @@ export const givenchy_productos = [
     { img:'/givenchy/Sudaderas-Jerseys (13).webp', marca:'Gucci', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},       
 ]
 
-export const fog_essentials_productos = [    
+export const fog_essentials_productos:Productos[]  = [    
     { img:'/fog-essentials/Pantalones (1).webp', marca:'Fog Essentials', tipo:'Pantalon', tallas:'Tallas S/XL', precio:'60€',},        
     { img:'/fog-essentials/Pantalones (2).webp', marca:'Fog Essentials', tipo:'Pantalon', tallas:'Tallas S/XL', precio:'60€',},        
     { img:'/fog-essentials/Pantalones (3).webp', marca:'Fog Essentials', tipo:'Pantalon', tallas:'Tallas S/XL', precio:'60€',},        
@@ -1280,7 +1280,7 @@ export const fog_essentials_productos = [
     { img:'/fog-essentials/Sudaderas (11).webp', marca:'Fog Essentials', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},   
 ]
 
-export const corteiz_productos = [           
+export const corteiz_productos:Productos[]  = [           
     { img:'/corteiz/Camisetas (1).webp', marca:'Corteiz', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/corteiz/Camisetas (2).webp', marca:'Corteiz', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/corteiz/Camisetas (3).webp', marca:'Corteiz', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
@@ -1292,24 +1292,24 @@ export const corteiz_productos = [
     { img:'/corteiz/Camisetas (9).webp', marca:'Corteiz', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/corteiz/Camisetas (10).webp', marca:'Corteiz', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
     { img:'/corteiz/Camisetas (11).webp', marca:'Corteiz', tipo:'Camiseta', tallas:'Tallas S/XL', precio:'45€',},
-    { img:'/corteiz/Chandal (1).webp', marca:'Corteiz', tipo:'Chandal', tallas:'Tallas S/XL', precio:'60€',},        
-    { img:'/corteiz/Chandal (2).webp', marca:'Corteiz', tipo:'Chandal', tallas:'Tallas S/XL', precio:'60€',},        
-    { img:'/corteiz/Chandal (3).webp', marca:'Corteiz', tipo:'Chandal', tallas:'Tallas S/XL', precio:'60€',},
+    { img:'/corteiz/Chandal (1).webp', marca:'Corteiz', tipo:'Conjunto', tallas:'Tallas S/XL', precio:'100€',},        
+    { img:'/corteiz/Chandal (2).webp', marca:'Corteiz', tipo:'Conjunto', tallas:'Tallas S/XL', precio:'100€',},        
+    { img:'/corteiz/Chandal (3).webp', marca:'Corteiz', tipo:'Conjunto', tallas:'Tallas S/XL', precio:'100€',},
     { img:'/corteiz/Pantalon (1).webp', marca:'Corteiz', tipo:'Pantalon', tallas:'Tallas S/XL', precio:'60€',},  
     { img:'/corteiz/Pantalon (2).webp', marca:'Corteiz', tipo:'Pantalon', tallas:'Tallas S/XL', precio:'60€',},  
-    { img:'/corteiz/Sudaderas-Jerseys (1).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/corteiz/Sudaderas-Jerseys (2).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/corteiz/Sudaderas-Jerseys (3).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/corteiz/Sudaderas-Jerseys (4).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/corteiz/Sudaderas-Jerseys (5).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/corteiz/Sudaderas-Jerseys (6).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/corteiz/Sudaderas-Jerseys (7).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/corteiz/Sudaderas-Jerseys (8).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/corteiz/Sudaderas-Jerseys (9).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/corteiz/Sudaderas-Jerseys (10).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/corteiz/Sudaderas-Jerseys (11).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/corteiz/Sudaderas-Jerseys (12).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
-    { img:'/corteiz/Sudaderas-Jerseys (13).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'80€',},
+    { img:'/corteiz/Sudaderas-Jerseys (1).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/corteiz/Sudaderas-Jerseys (2).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/corteiz/Sudaderas-Jerseys (3).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/corteiz/Sudaderas-Jerseys (4).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/corteiz/Sudaderas-Jerseys (5).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/corteiz/Sudaderas-Jerseys (6).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/corteiz/Sudaderas-Jerseys (7).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/corteiz/Sudaderas-Jerseys (8).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/corteiz/Sudaderas-Jerseys (9).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/corteiz/Sudaderas-Jerseys (10).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/corteiz/Sudaderas-Jerseys (11).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/corteiz/Sudaderas-Jerseys (12).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
+    { img:'/corteiz/Sudaderas-Jerseys (13).webp', marca:'Corteiz', tipo:'Sudadera/Jersey', tallas:'Tallas S/XL', precio:'70€',},
   
 ]
 
