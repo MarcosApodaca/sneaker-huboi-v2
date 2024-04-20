@@ -10,6 +10,17 @@ export interface Productos {
 }
 
 
+export const popular_productos:Productos[]=[
+    {img:'/nike/zapatilla-nike(1).webp',marca:'Nike',  title:'Dunk Low Retro Panda',tipo:'Zapatillas',tallas:'Tallas 36/45',precio:'70€'},
+    {img:'/nike/zapatilla-nike (7).webp',marca:'Nike', flipImage:false ,title:'Dunk Low Retro University Blue',tipo:'Zapatillas',tallas:'Tallas 36/45',precio:'70€'},
+    {img:'/nike/zapatilla-nike (13).webp',marca:'Nike', title:'Dunk Low Sb Ben & Jerry',tipo:'Zapatillas',tallas:'Tallas 36/45',precio:'90€'},
+    {img:'/nike/zapatilla-nike (68).webp',marca:'Nike', title:'Air Force 1 Supreme White',tipo:'Zapatillas',tallas:'Tallas 36/45',precio:'70€'},   
+    {img:'/nike/zapatilla-nike (77).webp',marca:'Nike', title:'Air Force 1 Off White University Blue',tipo:'Zapatillas',tallas:'Tallas 36/45',precio:'90€'},   
+    {img:'/nike/zapatilla-nike (26).webp',marca:'Nike', title:'Air Jordan 1 Off White Red',tipo:'Zapatillas',tallas:'Tallas 36/45',precio:'110€'},
+    {img:'/nike/zapatilla-nike (33).webp',marca:'Nike', title:'Air Jordan 1 Dior',tipo:'Zapatillas',tallas:'Tallas 36/45',precio:'110€'},   
+    {img:'/nike/zapatilla-nike (122).webp',marca:'Nike', title:'Jordan 1 Hi OG de Jordan x Travis Scott',tipo:'Zapatillas',tallas:'Tallas 36/45',precio:'120€'},   
+
+]
 
 export const new_balance_productos:Productos[] = [
     { img:'/new-balance/New Balance-550.webp', marca:'New Balance', title:'550 White Black', tipo:'Zapatilla', tallas:'Tallas 36/45', precio:'75€',},
@@ -794,7 +805,6 @@ export const dior_productos:Productos[] = [
 ]
 
 
-
 export const louboutin_productos:Productos[] = [
     { img:'/louboutin/Louboutin-1.webp', marca:'Louboutin', tipo:'Zapatilla', title:'Junior Spikes Black', tallas:'Tallas 36/45', precio:'100€',},
     { img:'/louboutin/Louboutin-2.webp', marca:'Louboutin', tipo:'Zapatilla', title:'Junior Spikes Panorama Blue', tallas:'Tallas 36/45', precio:'100€',},
@@ -804,7 +814,6 @@ export const louboutin_productos:Productos[] = [
     { img:'/louboutin/Louboutin-6.webp', marca:'Louboutin', tipo:'Zapatilla', title:'Spikes High Black', tallas:'Tallas 36/45', precio:'100€',},
     { img:'/louboutin/Louboutin-7.webp', marca:'Louboutin', tipo:'Zapatilla', title:'Low Spikes Leather White', tallas:'Tallas 36/45', precio:'100€',},
 ]
-
 
 export const alexander_McQueen:Productos[] = [
     { img:'/alexander-mcqueen/zapatilla-alexander-mcqueen (1).webp', marca:'Louboutin', tipo:'Zapatilla', title:'Oversize White Antracite', tallas:'Tallas 36/45', precio:'90€',},
