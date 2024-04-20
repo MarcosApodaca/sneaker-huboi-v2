@@ -23,7 +23,7 @@ const { img, marca, title, tipo, tallas, precio, flipImage } = Astro.props;
 	</div>
 
 	<a href={img} class=" mx-auto">
-		<img id="modalImg" class={flipImage ? "w-96 flipped-image img-limited-height" : ""} loading="lazy"  src={img} alt="imagen">
+		<img id="modalImg" class={flipImage ? "flipImage " : ""} loading="lazy"  src={img} alt="imagen">
 	</a>
 
 	<div>
@@ -52,19 +52,19 @@ overlay.addEventListener('click', () => {
 
 <style>
 
-#modalImg {
-    object-fit: contain; /* Mantiene la imagen dentro del contenedor */
-    width: 100%; /* Establece un ancho máximo basado en el contenedor */
-    height: 200px; /* La altura se ajusta automáticamente manteniendo la relación de aspecto */
-    max-height: 100%; /* Asegura que la imagen no exceda la altura del contenedor */
-}
-
-
-	
-	.flipImage{
-		transform: scaleX(-1);
-		
+	#modalImg {
+		object-fit: contain; /* Mantiene la imagen dentro del contenedor */
+		width: 100%; /* Establece un ancho máximo basado en el contenedor */
+		height: 200px; /* La altura se ajusta automáticamente manteniendo la relación de aspecto */
+		max-height: 100%; /* Asegura que la imagen no exceda la altura del contenedor */
 	}
+
+
+	.flipImage{
+		transform: scaleX(-1) rotate(25deg);
+		filter: drop-shadow(0px 10px 7px rgba(205, 69, 202, 0.5));
+	}
+	
 	.card{
 		list-style: none;
 	}
