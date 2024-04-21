@@ -23,8 +23,8 @@ const { img, marca, title, tipo, tallas, precio, flipImage, rotateImage } = Astr
 		<h3 class=" text-sm">{title}</h3>
 	</div>
 
-	<a href={img} class=" mx-auto">
-		<img id="modalImg" class={flipImage ? "flipImage " : ""} class={rotateImage ? "rotateImage" : ""} loading="lazy"  src={img} alt="imagen">
+	<a href={img} class="mx-auto">
+		<img id="modalImg" class={flipImage ? "flipImage " : ""}  loading="lazy"  src={img} alt="imagen">
 	</a>
 
 	<div>
@@ -67,7 +67,6 @@ overlay.addEventListener('click', () => {
 
 	.flipImage{
 		transform: scaleX(-1);
-		/* filter: drop-shadow(0px 10px 7px rgba(205, 69, 202, 0.5)); */
 	}
 	
 	.card{
@@ -92,6 +91,8 @@ overlay.addEventListener('click', () => {
 		text-transform: uppercase;
 	}
 	p {
+		
+		
 		font-size: 12px;
 		font-weight: 600;
 		text-transform: uppercase;
