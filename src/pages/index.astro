@@ -46,7 +46,7 @@ import { popular_productos } from "../components/productos";
                     tipo={producto.tipo}
                     tallas={producto.tallas}
                     precio={producto.precio}
-                    flipImage={true}
+					rotateImage={producto.rotateImage}
                 />
             ))}
         </ul>
@@ -54,9 +54,9 @@ import { popular_productos } from "../components/productos";
 
 	<article class=" max-w-[85rem] mx-auto p-5">
 		<div class="compra relative max-w-2xl sm:max-w-6xl mx-auto my-40 bg-[#faf8f5] rounded-[25px] p-7 sm:p-20 ">
-			<div class=" sm:w-[40rem]">
-				<h2 class=" mt-40 sm:mt-0 text-3xl sm:text-4xl uppercase mb-10">Como comprar ? </h2>
-				<p class=" text-sm text-pretty">Para realizar una compra con
+			<div class=" sm:w-[35rem]">
+				<h2 class=" mt-40 sm:mt-0 text-3xl sm:text-4xl uppercase mb-10">Como comprar <span class=" font-sans font-extrabold">?</span></h2>
+				<p class=" text-sm text-pretty ">Para realizar una compra con
 					nosotros simplemente contctanos
 					a través de WhatsApp y háznos saber 
 					los productos que deseas adquirir. </p>
