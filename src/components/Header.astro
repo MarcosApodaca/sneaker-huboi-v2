@@ -3,7 +3,7 @@
 ---
 
 <header class=" left-0 right-0  mx-auto fixed top-0 z-10">
-    <nav id="nav" class=" flex justify-between sm:justify-start p-5 text-[#faf8f5]">
+    <nav id="nav" class=" flex justify-between lg:justify-start p-5 text-[#faf8f5]">
         <a class=" h-0  text-center" href="/">
         SNEAKERS <br>
         <span class=" font-bold">HUB01</span>
@@ -19,14 +19,28 @@
             <li id="mobile-menu"><img src="/icon/icon-shopping.png" class=" w-10" ></li>
         </ul>
 
-        <div id="divNav"  class="sm:flex flex-col ml-24">
+      
+
+        <div id="divNav"  class=" lg:flex flex-col ml-0">
+
+            <button id="table-menu" class="hidden sm:block lg:hidden sm:hover:cursor-pointer">
+                <img src="/public/icon/table-menu.png" alt="">
+            </button>
+                
+          
             <ul   class=" p-4 flex mb-2">
-                <li class="hidden sm:inline"><a id="zapatilla" class=" m-4 sm:inline" href="/zapatilla">MARCAS</a></li>
-                <li class="hidden sm:inline"><a href="">WHATSAPP</a></li>
+                <li class="hidden lg:inline"><a id="zapatilla" class=" m-4 sm:inline" href="/zapatilla">MARCAS</a></li>
+                <li class="hidden lg:inline"><a href="">WHATSAPP</a></li>
             </ul>
-            <div id="marcaZapatilla" class="nav-desplegado-menu lista  flex flex-col sm:flex-row  sm:gap-20 ">
-                <h3 class=" text-2xl sm:hidden text-black mb-10 "> Selecciona tu marca favorita</h3>
-                <ul class=" marcas p-1  text-black leading-normal">
+            <div id="marcaZapatilla" class=" lista  flex flex-col lg:flex-row  lg:gap-20 scroll-container">
+
+                <button id="close-menu" class=" m-20px">
+                <img  src="/public//icon//close-menu.png" alt="">
+                </button>
+
+                <h3 class=" text-2xl lg:hidden text-black mb-10 "> Selecciona tu marca favorita</h3>
+                
+                <ul class=" text-xs lg:text-sm marcas p-1  text-black leading-normal">
                     <li><a class="i icon1" href="/nike">Nike</a></li>
                     <li><a class="i icon2" href="/newBalance"></a>New Balance</li>
                     <li><a class="i icon3" href="/adidas"></a>Adidas</li>
@@ -36,7 +50,7 @@
                     <li><a class="i icon7" href="/balenciaga"></a>Balenciaga</li>
                     <li><a class="i icon8" href="/louisVuitton">Louis Vuiiton</a></li>
                 </ul>
-                <ul class=" p-1 text-black leading-normal">
+                <ul class="text-xs lg:text-sm  p-1 text-black leading-normal">
                     <li><a class="i icon9" href="/bape"></a>Bape</li>
                     <li><a class="i icon10" href="/versace"></a>Versace</li>
                     <li><a class="i icon11" href="/louboutin"></a>Louboutin</li>
@@ -46,7 +60,7 @@
                     <li><a class="i icon15" href="/prada"></a>Prada</li>
                     <li><a class="i icon16" href="/palmangels"></a>Palm Angels</li>
                 </ul>
-                <ul class=" p-1 text-black leading-normal">
+                <ul class="text-xs lg:text-sm p-1 text-black leading-normal">
                     <li><a class="i icon17" href="/offWhite"></a>Off White</li>
                     <li><a class="i icon18" href="/moncler"></a>Moncler</li>
                     <li><a class="i icon19" href="/loewe"></a>Loewe</li>
@@ -54,10 +68,10 @@
                     <li><a class="i icon21" href="/givenchy"></a>Givenchy</li>
                     <li><a class="i icon22" href="/dsquared2"></a>Dsquared2</li>
                     <li><a class="i icon23" href="/dior"></a>Dior</li>
+                    <li><a class="i icon24" href="/corteiz"></a>Corteiz</li>
                 </ul>
 
-                <ul class=" p-1 text-black leading-normal">
-                <li><a class="i icon24" href="/corteiz"></a>Corteiz</li>
+                <ul class="text-xs lg:text-sm p-1 text-black leading-normal">
                 <li><a class="i icon25" href="/celine"></a>Celine</li>
                 <li><a class="i icon26" href="/burberry"></a>Burberry</li>
                 <li><a class="i icon27" href="/balmain"></a>Balmain</li>
@@ -74,6 +88,16 @@
 </header>
 
 <style>
+
+
+@media ( max-width: 1024px) { 
+    .scroll-container {
+    width: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+}
+
 
 header{
     animation: header-bg linear forwards;
@@ -96,13 +120,10 @@ li > i {
     text-align: center;
 }
 
-
-
 .lista{
     display: none;
     /* transform: translateY(-10px);
     transition: transform .1s, opacity .1s; */
-
 }
 
 .lista-marcas{
@@ -115,10 +136,11 @@ li > i {
 
 
 .nav-desplegado-mobile{
+    display: block;
     position: fixed;
     background-color: #faf8f5;
-    height:94%;
-    width: 80%;
+    height:100%;
+    width: 325px;
     top: 0;
     padding: 2rem;
     border-radius: 20px 0 0 20px;
@@ -160,13 +182,11 @@ li > i {
 }
 
 .nav-desplegado-menu.abierto {
-    /* Aplicar animación para abrir el menú */
-    animation: despliegueNavMobile 0.5s both;;
+    animation: despliegueNavMobile 0.5s both;
 }
 
 .nav-desplegado-menu.cerrado {
-    /* Aplicar animación para cerrar el menú */
-    animation: ocultarNavMobile 0.5s both;;
+    animation: ocultarNavMobile 0.5s both;
 }
 
 .nav-desplegado{
@@ -176,7 +196,6 @@ li > i {
     width:100vw;
     background-color: #faf8f5;   
     animation: despliegue 0.5s ease-in-out forwards;
-    
 }
 
 @keyframes despliegue {
@@ -191,13 +210,15 @@ li > i {
 }
 
 
-    @media ( min-width: 768px) { 
+@media ( min-width: 768px) { 
+    
     a{
-        letter-spacing: 3px;
-        padding: 7px;
-        transition: .15s ease-in-out;
-    }
-    }
+            letter-spacing: 3px;
+            padding: 7px;
+            transition: .15s ease-in-out;
+        }
+}
+    
         
     
     .i > a:hover{
@@ -382,7 +403,10 @@ li > i {
 <script>
     
     const mobileMenu:any= document.getElementById("mobile-menu")
+    const tableMenu:any= document.getElementById("table-menu")
+    const closeMenu:any= document.getElementById("close-menu")
     const marcaZapatilla = (document.getElementById("marcaZapatilla") as HTMLInputElement);
+   
 
     let estado = false;
 
@@ -401,6 +425,23 @@ li > i {
         //     estado = false
         // }
         
+    })
+
+    closeMenu.addEventListener('click', () => {
+        if(window.innerWidth <= 960){
+            marcaZapatilla.classList.toggle('lista-marcas')
+            marcaZapatilla.classList.toggle('nav-desplegado-mobile')
+            marcaZapatilla.classList.toggle('abierto');
+
+        }
+    })
+
+    tableMenu.addEventListener('click', () => {
+        if((window.innerWidth >= 640 && window.innerWidth <= 960)){
+        marcaZapatilla.classList.toggle('lista-marcas')
+        marcaZapatilla.classList.toggle('nav-desplegado-mobile')
+        marcaZapatilla.classList.toggle('abierto');
+    }
     })
     
     
