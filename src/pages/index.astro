@@ -1,5 +1,5 @@
 ---
-import Card from '../components/Card.astro';
+import IndexC from '../components/CardIndex.astro';
 import Layout from '../layouts/Layout.astro';
 import { popular_productos } from "../components/productos";
 import { Image } from 'astro:assets';
@@ -39,7 +39,7 @@ import { Image } from 'astro:assets';
 		<h2 class="mb-20 text-4xl text-center xl:text-start sm:text-5xl uppercase texto-con-gradiente">Modelos mas populares</h2>
 		<ul class="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center">
             {popular_productos.map((producto:any) => (
-                <Card
+                <IndexC
                     href={producto.href}
                     img={producto.img}
                     title={producto.title}
@@ -47,7 +47,7 @@ import { Image } from 'astro:assets';
                     tipo={producto.tipo}
                     tallas={producto.tallas}
                     precio={producto.precio}
-					rotateImage={true}
+				
                 />
             ))}
         </ul>
