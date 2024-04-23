@@ -7,31 +7,31 @@ import { popular_productos } from "../components/productos";
 <Layout title="Sneakers Huboi zapatillas de calidad">
 	
 	<hero class="relative flex-col sm:grid sm:grid-cols-4 max-h-screen">
-		<h1 class=" p-[2rem] font-extrabold text-[4rem] sm:self-start sm:col-start-1 sm:row-start-1 leading-none lg:text-[9rem] text-[#faf8f5] lg:ml-[1rem] self-end mt-[8rem]  ">SNEA <br/>
+		<h1 class=" p-[2rem] font-extrabold text-[4rem] sm:self-start sm:col-start-1 sm:row-start-1 leading-none lg:text-[7rem] xl:text-[8rem] text-[#faf8f5] lg:ml-[1rem] self-end mt-[8rem]  ">SNEA <br/>
 			KER
 		</h1>
 		
 		<div class=" sm:row-start-1 sm:col-span-3 lg:col-start-2 lg:col-end-4 lg:row-start-1 lg:row-end-2 justify-self-center place-content-end place-self-end">
 			<div class=" lg:absolute">
-				<img class="lg:relative lg:left-[-400px] lg:top-[-250px]  hero-zapatilla bg-[url(/bg.png)]  bg-no-repeat bg-contain bg-center " src="/nike-dunk-unscreen.gif" alt="">
+				<img class="lg:relative xl:left-[-400px] lg:top-[-250px]  hero-zapatilla bg-[url(/bg.png)]  bg-no-repeat bg-contain bg-center " src="/nike-dunk-unscreen.gif" alt="">
 			</div> 
 		</div>
-		<img class=" hidden lg:block mano-top justify-self-center mr-80" src="/hand-top.png">
+		<img class=" hidden xl:block mano-top justify-self-center mr-80" src="/hand-top.png">
 		<img class="mano absolute right-20 sm:hidden lg:static lg:block lg:col-span-2 lg:row-start-2 lg:justify-self-center lg:self-end" src="/hand.png">
 
 		
-		<div class=" hidden sm:block relative sm:col-span-4 justify-self-center sm:justify-self-end sm:mr-10 sm:mt-28 lg:mt-0 lg:p-0 lg:self-center row-start-2 sm:text-5xl lg:text-7xl font-black ">
+		<div class=" hidden sm:block relative sm:col-span-4 justify-self-center sm:justify-self-end sm:mr-10 sm:mt-28 lg:mt-0 lg:p-0 lg:self-center row-start-2 sm:text-5xl xl:text-7xl font-black ">
 		<p class="text-[#B8B8B8] tracking-[10px] ">SNEAKER</p>
 		<p class=" w-96 absolute text-white text-xs">No te conformes con lo ordinario elige lo extraordinario con las zapatillas Nike 
 		fashion que marcan tendencia en todo el mundo Hazte con un par hoy mismo y eleva tu estilo a nuevas alturas</p>
-		<a class=" arrow text-white absolute sm:top-40 sm:text-xl lg:text-2xl" href="/">ELIGE EL TUYO</a>
+		<a class=" arrow text-white absolute sm:top-40 sm:text-xl xl:text-2xl" href="/">ELIGE EL TUYO</a>
 		<p class="parrafo op">SNEAKER</p>
 		<p class="parrafo opacity-50">SNEAKER</p>
 		<p class="parrafo opacity-30">SNEAKER</p>
 		<p class="parrafo opacity-10">SNEAKER</p>
 		
 		</div>
-		<div class="bg-circle right-0 bottom-[40%]"></div>
+		<!-- <div class="bg-circle right-0 bottom-[40%]"></div> -->
 	</hero>
 	<main class=" max-w-[85rem] mx-auto mt-[25rem] sm:mt-[0rem] lg:mt-[15rem] ">
 		
@@ -106,14 +106,8 @@ import { popular_productos } from "../components/productos";
 	.hero-zapatilla{
 		animation: zapatilla-animacion 1.2s ease-in-out both;
 		width: 800px;
-		/* background-image: url("/public/nike-dunk-unscreen.gif");
-		background-repeat: no-repeat;
-		background-position: center;
-		z-index: 1909000;
-		background-size: 600px;
-		background-position-x: 200px;
-		background-position-y: 100px ; */
 	}
+	
 	@keyframes zapatilla-animacion {
 		from {
 		opacity: 0;
@@ -188,7 +182,7 @@ import { popular_productos } from "../components/productos";
 		}
 	 }
 
-	@media (min-width: 1024px) {
+	@media (min-width: 1228px) {
 		.arrow::before{
 			width: 150px;
 		}
