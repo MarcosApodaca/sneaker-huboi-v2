@@ -17,7 +17,7 @@ import { popular_productos } from "../components/productos";
 			</div> 
 		</div>
 		<img class=" hidden xl:block mano-top justify-self-center mr-80" src="/hand-top.png">
-		<img class="mano absolute right-20 sm:hidden lg:static lg:block lg:col-span-2 lg:row-start-2 lg:justify-self-center lg:self-end" src="/hand.png">
+		<img class="mano absolute right-20 sm:hidden lg:static lg:block lg:col-span-2 lg:row-start-2 xl:justify-self-center xl:self-end" src="/hand.png">
 
 		
 		<div class=" hidden sm:block relative sm:col-span-4 justify-self-center sm:justify-self-end sm:mr-10 sm:mt-28 lg:mt-0 lg:p-0 lg:self-center row-start-2 sm:text-5xl xl:text-7xl font-black ">
@@ -33,9 +33,9 @@ import { popular_productos } from "../components/productos";
 		</div>
 		<!-- <div class="bg-circle right-0 bottom-[40%]"></div> -->
 	</hero>
-	<main class=" max-w-[85rem] mx-auto mt-[25rem] sm:mt-[0rem] lg:mt-[15rem] ">
+	<main class=" max-w-[85rem] mx-auto mt-[25rem] sm:mt-[0rem] lg:mt-[25rem] xl:mt-[15rem] ">
 		
-		<h2 class="mb-20 text-4xl text-center lg:text-start sm:text-5xl uppercase texto-con-gradiente">Modelos mas populares</h2>
+		<h2 class="mb-20 text-4xl text-center xl:text-start sm:text-5xl uppercase texto-con-gradiente">Modelos mas populares</h2>
 		<ul class="flex flex-col sm:flex-row sm:flex-wrap items-center">
             {popular_productos.map((producto:any) => (
                 <Card
