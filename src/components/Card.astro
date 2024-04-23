@@ -1,16 +1,14 @@
 ---
-
-export interface Productos {
-	img: string;
-	marca: string;
-	title?: string;
-	tipo:string;
-	tallas:string
-	precio: string;
-	flipImage?: boolean;
-	rotateImage?: boolean;
+interface Producto {
+    href: string;
+    img: string;
+    title: string;
+    marca: string;
+    tipo: string;
+    tallas: string[];
+    precio: number;
+    flipImage: boolean;
 }
-
 
 const { img, marca, title, tipo, tallas, precio, flipImage, rotateImage } = Astro.props;
 
