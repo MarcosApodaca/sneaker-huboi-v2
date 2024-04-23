@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 
+
 interface Producto {
     href: string;
     img: string;
@@ -90,17 +91,26 @@ overlay.addEventListener('click', () => {
 		font-weight:900;
 		text-transform: uppercase;
 	}
+	
+	h2, h3{
+		font-family: sans-serif;	
+		font-weight: 900;
+		letter-spacing: .8px;
+		font-size: 15px;
+	}
+
 	p {
 		
-		
+		font-family: sans-serif;		
+		letter-spacing: .8px;
 		font-size: 12px;
-		font-weight: 600;
+		font-weight: 900;
 		text-transform: uppercase;
 		color: #707072;
 	}
 	.precio{
 		color: #000;
-		font-weight: bold;
+		font-size: 14px;
 	}
 	.card:is(:hover, :focus-within) {
 		background-position: 0;
