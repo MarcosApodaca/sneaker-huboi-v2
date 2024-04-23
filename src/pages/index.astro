@@ -7,7 +7,7 @@ import { popular_productos } from "../components/productos";
 <Layout title="Sneakers Huboi zapatillas de calidad">
 	
 	<hero class="relative flex-col sm:grid sm:grid-cols-4 max-h-screen">
-		<h1 class=" p-[2rem] font-extrabold text-[4rem] sm:self-start sm:col-start-1 sm:row-start-1 leading-none lg:text-[7rem] xl:text-[8rem] text-[#faf8f5] lg:ml-[1rem] self-end mt-[8rem]  ">SNEA <br/>
+		<h1 class=" p-[2rem] font-extrabold text-[4rem] sm:self-start sm:col-start-1 sm:row-start-1 leading-none lg:text-[7rem] xl:text-[8rem] text-[#faf8f5] lg:ml-[1rem] self-end mt-[8rem]   ">SNEA <br/>
 			KER
 		</h1>
 		
@@ -36,7 +36,7 @@ import { popular_productos } from "../components/productos";
 	<main class=" max-w-[85rem] mx-auto mt-[25rem] sm:mt-[0rem] lg:mt-[25rem] xl:mt-[15rem] ">
 		
 		<h2 class="mb-20 text-4xl text-center xl:text-start sm:text-5xl uppercase texto-con-gradiente">Modelos mas populares</h2>
-		<ul class="flex flex-col sm:flex-row sm:flex-wrap items-center">
+		<ul class="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center">
             {popular_productos.map((producto:any) => (
                 <Card
                     href={producto.href}
