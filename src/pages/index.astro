@@ -21,9 +21,9 @@ import { Image } from 'astro:assets';
 		<img class="mano absolute right-20 sm:hidden lg:static lg:block lg:col-span-2 lg:row-start-2 xl:justify-self-center xl:self-end" src="/hand.png" alt='La imagen de una mano'>
 
 		
-		<div class=" hidden sm:block relative sm:col-span-4 justify-self-center sm:justify-self-end sm:mr-10 sm:mt-28 lg:mt-0 lg:p-0 lg:self-center row-start-2 sm:text-5xl xl:text-7xl font-black ">
+		<div class=" hidden sm:block relative sm:col-span-4 justify-self-center sm:justify-self-end sm:mr-10 sm:mt-28 lg:mt-0 lg:p-0 lg:self-center row-start-2 sm:text-5xl lg:text-6xl xl:text-7xl font-black ">
 		<p class="text-[#B8B8B8] tracking-[10px] ">SNEAKER</p>
-		<p class=" w-96 absolute text-white text-xs">No te conformes con lo ordinario elige lo extraordinario con las zapatillas Nike 
+		<p class=" w-96 absolute text-white text-xs ">No te conformes con lo ordinario elige lo extraordinario con las zapatillas Nike 
 		fashion que marcan tendencia en todo el mundo Hazte con un par hoy mismo y eleva tu estilo a nuevas alturas</p>
 		<a class=" arrow text-white absolute sm:top-40 sm:text-xl xl:text-2xl" href="/">ELIGE EL TUYO</a>
 		<p class="parrafo op">SNEAKER</p>
@@ -54,32 +54,30 @@ import { Image } from 'astro:assets';
 	</main>
 
 	<article class=" max-w-[85rem] mx-auto p-5">
-		<div class="compra relative max-w-2xl sm:max-w-6xl mx-auto my-40 bg-[#faf8f5] rounded-[25px] p-7 sm:p-20 ">
-			<div class=" sm:w-[35rem]">
+		<div class="compra relative max-w-2xl  sm:max-w-6xl mx-auto my-40 bg-[#faf8f5] rounded-[25px] p-7 sm:p-20 ">
+			<div class=" lg:w-[30rem] xl:w-[35rem]">
 				<h2 class=" mt-40 sm:mt-0 text-3xl sm:text-4xl uppercase mb-10">Como comprar <span class=" font-sans font-extrabold">?</span></h2>
-				<p class=" text-sm text-pretty ">Para realizar una compra con
-					nosotros simplemente contctanos
-					a través de WhatsApp y háznos saber 
-					los productos que deseas adquirir. </p>
+				<p class="article-text text-sm text-pretty ">Para realizar una compra con nosotros simplemente contáctanos a 
+					través de WhatsApp y haznos saber los productos que deseas adquirir. </p>
 					<br>
-				<p class="text-sm"> Una vez recibamos tu solicitud, te
+				<p class="article-text text-sm"> Una vez recibamos tu solicitud, te
 					proporcionaremos información adicional, 
 					incluyendo detalles sobre disponibilidad, precios 
 					y opciones de envío. </p>
-					<br> 
-				<p class="text-sm">Nuestro método de pago es 
+					
+				<p class="article-text text-sm">Nuestro método de pago es 
 					contra reembolso, lo que significa que pagarás al 
 					recibir tu pedido. ¡Es así de fácil!</p>
 			</div>
-			<img class=" absolute top-[-100px] left-[-20%] sm:left-[50%] w-[30rem]" src="/shirt.png" alt="">
-			<img class=" absolute top-[-100px] left-[5%] sm:left-[70%] w-[30rem] " src="/shirt1.png" alt="">
-			<img class="hidden sm:block absolute top-[200px] left-[70%] w-[30rem]" src="/shoe.png" alt="">
+			<img class=" absolute top-[-140px] left-[-20%] sm:hidden lg:block lg:left-[50%] w-[30rem]" src="/shirt.png" alt="">
+			<img class=" absolute top-[-140px] left-[5%] sm:hidden lg:block lg:left-[70%] w-[30rem] " src="/shirt1.png" alt="">
+			<img class="hidden lg:block absolute top-[200px] left-[70%] w-[30rem]" src="/shoe.png" alt="">
 		</div>
 	</article>
 </Layout>
 
 <style>
-
+	
 
 	.bg-circle{
 		width: 15rem;
@@ -218,5 +216,15 @@ import { Image } from 'astro:assets';
   filter: drop-shadow(1px 1px 5px #c92cb960);
 
 }
+
+.article-text{
+		
+	font-family: sans-serif;		
+	font-size: 15px;
+	font-weight: 900;
+	color: #000000;
+}
+
+
 
 </style>
