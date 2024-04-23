@@ -18,7 +18,7 @@ const { img, marca, title, tipo, tallas, precio, flipImage, rotateImage } = Astr
 
 ---
 
-<li id="overlay" class="overlay card modal card-img mb-10 mx-5 flex flex-col justify-between ">
+<li id="overlay" class="overlay card modal card-img mb-10 mx-5 flex flex-col justify-between revealing-image">
 	<div>
 		<h2 class="text-sm">{marca}</h2>
 		<h3 class=" text-sm">{title}</h3>
@@ -54,11 +54,32 @@ overlay.addEventListener('click', () => {
 
 <style>
 
+.revealing-image {
+	
+	view-timeline-name: --revealing-image;
+	view-timeline-axis: block;
+
+	animation: linear reveal both;
+	animation-timeline: --revealing-image;
+
+	
+	animation-range: entry 30% cover 40%;
+}
+
+@keyframes reveal {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
 	#modalImg {
-		object-fit: contain; /* Mantiene la imagen dentro del contenedor */
-		width: 100%; /* Establece un ancho máximo basado en el contenedor */
-		height: 200px; /* La altura se ajusta automáticamente manteniendo la relación de aspecto */
-		max-height: 100%; /* Asegura que la imagen no exceda la altura del contenedor */
+		object-fit: contain; 
+		width: 100%; 
+		height: 200px; 
+		max-height: 100%; 
 	}
 
 	.rotateImage{
@@ -82,9 +103,7 @@ overlay.addEventListener('click', () => {
 		border-radius: 25px;
 		border-left: solid 9px #C92CB9 ;
 		border-bottom: solid 9px #C92CB9;	
-		
 	}
-
 
 	h4 {
 		font-size: 13px;
