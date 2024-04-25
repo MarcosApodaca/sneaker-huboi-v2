@@ -2,26 +2,46 @@
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import Noise from '../components/Noise.astro';
-import { ViewTransitions } from "astro:transitions"
 
 interface Props {
 	title: string;
+    canonical?: string
 }
 
 const { title } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en" class="overflow-x-hidden">
+<html lang="es" class="overflow-x-hidden">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
+		<meta name="description" content="Venta de replica de zapatillas, ropas, merch de la mejor calidad del mercado" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/icon/logo-hub01.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+        <meta name="robots" content="index">
+        <meta name="keywords" content="zapatilla, nike, sneakers, replica, ropa, sneakers hub01" />
+
+        <!-- OPEN GRAPH -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content='Venta de replica de zapatillas, ropas, merch de la mejor calidad del mercado' />
+        <meta name="twitter:image" content='/icon/Open-graf.png' />
+
+        <meta name="og:image" content='/icon/Open-graf.png' />
+        <meta property="og:image:alt" content="logo de Sneaker Hub01">
+        <meta name="og:title" content={title} />
+        <meta name="og:description" content='Venta de replica de zapatillas, ropas, merch de la mejor calidad del mercado' />
+        <meta name="og:url" content={Astro.url} />
+        <meta name="og:site_name" content="Sneaker Hub01" />
+        <meta name="og:type" content="website" />
+        <meta name="og:locale" content="es_ES" />
+         <!--  -->
+
 		<script src="../components/script.ts"></script>
-        <ViewTransitions />
+
+
 
 	</head>
 	<body>
