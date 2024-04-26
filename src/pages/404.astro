@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout title="Página no encontrada">
+	<main class=" max-w-6xl mx-auto flex flex-col lg:flex-row  items-center justify-center mt-[15rem] mb-[12rem] ">
+		
+		<div class=" h-auto w-[300px] overflow-visible   animate-duration-0 md:w-[500px]"/>
+			<img class="image w-[35rem]" src="/erro404.png" alt="imagen de error, pagina no encontrada">
+		</div>
+		
+		<div class="m-5 mt-16 text-center w-auto ">
+			<h1  class="mb-10 font-bold text-5xl text-[#faf8f5]">
+				Error 404 
+			</h1>
+			<h2   class="text-[#faf8f5] text-3xl ">
+				<p>Pagina no encontrada</p>
+			</h2>
+			<p class="mt-5 mb-10 text-lg text-[#faf8f5]">
+				Hola Lo sentimos pero no pudimos encontrar lo que buscabas Verifica que la direccion URL sea correcta
+			</p>
+
+			<a class=" text-center text-2xl bg-[#faf8f5] hover:bg-[#C92CB9] hover:text-[#faf8f5] transition-colors rounded-md p-2" href="/" aria-label="volver a la página principal">
+				IR AL INICIO
+			</a>
+		</div>
+		
+	</main>
+</Layout>
+
+<style>
+	.image{
+		mask-image: linear-gradient(black 95%, transparent);
+	}
+</style>
