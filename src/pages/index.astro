@@ -37,7 +37,7 @@ import { Image } from 'astro:assets';
 	</hero>
 	<main class=" max-w-[85rem] mx-auto mt-[25rem] sm:mt-[0rem] lg:mt-[25rem] xl:mt-[15rem] ">
 		
-		<h2 class="mb-20 text-4xl text-center xl:text-start sm:text-5xl uppercase texto-con-gradiente">Modelos mas populares</h2>
+		<h2 class="animacion mb-20 text-4xl text-center xl:text-start sm:text-5xl uppercase texto-con-gradiente">Modelos mas populares</h2>
 		<ul class="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center">
             {popular_productos.map((producto:any) => (
                 <IndexC
@@ -153,9 +153,9 @@ import { Image } from 'astro:assets';
 
 	.contenedor-degradado {
          
-		 background-image: radial-gradient(at center, #C92CB9, rgba(161, 161, 161, 0));
-		 border-radius: 50%; 
-	 }
+		background-image: radial-gradient(at center, #C92CB9, rgba(161, 161, 161, 0));
+		border-radius: 50%; 
+	}
  	.parrafo{
 	 color: transparent;
 	 -webkit-text-stroke: 1px #B8B8B8; 
@@ -198,7 +198,24 @@ import { Image } from 'astro:assets';
 		left: 25px;
 	}
 
-	.texto-con-gradiente {
+	.animacion {
+		animation: reveal auto linear both ;
+  		animation-timeline: view();
+  		animation-range: entry 30% cover 35%;
+    }
+
+    @keyframes reveal {
+        from {
+			opacity: 0;
+            transform: translateX(-100px);
+        }
+        to {
+			transform: translateX(0px);
+            opacity: 1;
+        }
+    }	
+
+.texto-con-gradiente {
     /* background-image: linear-gradient(to right, #C92CB9, #fff); */
 	background: linear-gradient(45deg, #C92CB9, #9C1C88);
     -webkit-background-clip: text; 
