@@ -2,17 +2,28 @@
 
  
   function renderFavorites() {
-      const favoriteList = document.getElementById('favoriteList');
-      favoriteList.innerHTML = '';
+    const favoriteList = document.getElementById('favoriteList');
+    favoriteList.innerHTML = '';
 
-      favorites.forEach((favorite, index) => {
-          const listItem = document.createElement('li');
-          listItem.textContent = `${index + 1}. ${favorite}`;
-          favoriteList.appendChild(listItem);
-      });
-  }
+    favorites.forEach((favorite, index) => {
+        const listItem = document.createElement('li');
+        listItem.textContent = favorite;
+        
+        // Crear botón para eliminar
+        const deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Eliminar';
+        deleteButton.classList.add('delete-btn');
+        deleteButton.addEventListener('click', () => {
+            deleteFavorite(index);
+        });
 
-  // Función para agregar un nuevo favorito
+        listItem.appendChild(deleteButton);
+        favoriteList.appendChild(listItem);
+    });
+}
+
+
+
   function addFavorite(event) {
       event.preventDefault();
 
@@ -26,6 +37,5 @@
       }
   }
 
-  // Asociar el evento 'submit' del formulario a la función addFavorite
   const favoriteForm = document.getElementById('favoriteForm');
   favoriteForm.addEventListener('submit', addFavorite);
