@@ -37,5 +37,5 @@
       }
   }
 
-  const favoriteForm = document.getElementById('favoriteForm');
-  favoriteForm.addEventListener('submit', addFavorite);
+ /* const favoriteForm = document.getElementById('favoriteForm');
+  favoriteForm.addEventListener('submit', addFavorite);*/
